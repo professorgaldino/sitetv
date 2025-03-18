@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Therezinha Villani</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: white;
+            color: #2259f2;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: #eabf32;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .logo img {
+            width: 200px; /* Logo maior inicialmente */
+            height: auto;
+            margin-bottom: 10px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all 0.3s ease; /* Transição suave ao redimensionar */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #2259f2;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #2259f2, #ed2c0d);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #eabf32;
+            color: #030206;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #ed2c0d;
+            color: white;
+        }
+        .teacher-btn {
+            display: inline-block;
+            background-color: #2259f2;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .teacher-btn:hover {
+            background-color: #ed2c0d;
+        }
+        .info-section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: white;
+            color: #030206;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .info-section h2 {
+            color: #2259f2;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2259f2;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logoescola.jpeg" alt="Logo da Escola">
+            <div>Escola Therezinha Villani</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Bem-vindo à Escola Therezinha Villani</h1>
+        <p>Transformando o futuro com educação de qualidade.</p>
+        <a href="#projetos" class="btn">CONHEÇA NOSSOS PROJETOS</a>
+    </section>
+    
+    <section id="sobre" class="info-section">
+        <h2>Sobre a Escola</h2>
+        <p>Uma instituição dedicada ao ensino de qualidade, com professores qualificados e estrutura moderna.</p>
+    </section>
+    
+    <section id="projetos" class="info-section">
+        <h2>Nossos Projetos</h2>
+        <p>Oferecemos uma variedade de projetos para preparar nossos alunos para o futuro.</p>
+    </section>
+    
+    <section id="contato" class="info-section">
+        <h2>Entre em Contato</h2>
+        <p>Email: contato@escolatherezinavillani.com</p>
+        <p>Telefone: (19)3818-3424</p>
+        <p>RUA JORGE FRANCA CAMARGO DOUTOR, 351. JARDIM FANTINATO. 13848-303 Mogi Guaçu - SP.</p>
+    </section>
+
+    <section class="info-section">
+        <a href="login.html" class="teacher-btn">Acesso aos professores</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Escola Therezinha Villani. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {resizeLogo()};
+        
+        function resizeLogo() {
+            var logo = document.querySelector('.logo img');
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                logo.style.width = "150px"; // Logo menor ao rolar a página
+            } else {
+                logo.style.width = "200px"; // Logo maior quando no topo
+            }
+        }
+    </script>
+</body>
+</html>
