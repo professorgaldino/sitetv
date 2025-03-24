@@ -84,7 +84,7 @@
                     if (aluno) {
                         for (let disciplina in aluno) {
                             if (!dadosCompletos[disciplina]) {
-                                dadosCompletos[disciplina] = { notas: [], faltas: [] };
+                                dadosCompletos[disciplina] = { notas: ["-", "-", "-", "-"], faltas: ["-", "-", "-", "-"] };
                             }
                             dadosCompletos[disciplina].notas[i] = aluno[disciplina].notas[0] || "-";
                             dadosCompletos[disciplina].faltas[i] = aluno[disciplina].faltas[0] || "-";
@@ -112,13 +112,16 @@
             </tr>`;
             
             for (let disciplina in jsonData) {
-                let notas = jsonData[disciplina].notas.map(n => n || "-").join("</td><td>");
-                let faltas = jsonData[disciplina].faltas.map(f => f || "-").join("</td><td>");
-                
                 tabelaHTML += `<tr>
                     <td>${disciplina}</td>
-                    <td>${notas}</td>
-                    <td>${faltas}</td>
+                    <td>${jsonData[disciplina].notas[0]}</td>
+                    <td>${jsonData[disciplina].faltas[0]}</td>
+                    <td>${jsonData[disciplina].notas[1]}</td>
+                    <td>${jsonData[disciplina].faltas[1]}</td>
+                    <td>${jsonData[disciplina].notas[2]}</td>
+                    <td>${jsonData[disciplina].faltas[2]}</td>
+                    <td>${jsonData[disciplina].notas[3]}</td>
+                    <td>${jsonData[disciplina].faltas[3]}</td>
                 </tr>`;
             }
             
@@ -129,3 +132,4 @@
     </script>
 </body>
 </html>
+
