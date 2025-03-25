@@ -74,6 +74,11 @@
             try {
                 let bimestres = ["dados1.json", "dados2.json", "dados3.json", "dados4.json"];
                 let alunoId = "1";
+                let disciplinas = [
+                    "Língua Portuguesa", "Inglês", "Arte", "Educação Física", "Geografia", "História", "Matemática", 
+                    "Orientação de Estudos", "Projeto de Vida", "Eletiva", "Tecnologia e Inovação", "Ciências", 
+                    "Educação Financeira", "Práticas Experimentais"
+                ];
                 let dadosCompletos = {};
                 
                 for (let i = 0; i < bimestres.length; i++) {
@@ -82,13 +87,16 @@
                     let aluno = data[alunoId];
                     
                     if (aluno) {
-                        for (let disciplina in aluno) {
+                        disciplinas.forEach((disciplina, index) => {
                             if (!dadosCompletos[disciplina]) {
                                 dadosCompletos[disciplina] = { notas: ["-", "-", "-", "-"], faltas: ["-", "-", "-", "-"] };
                             }
-                            dadosCompletos[disciplina].notas[i] = aluno[disciplina].notas[0] || "-";
-                            dadosCompletos[disciplina].faltas[i] = aluno[disciplina].faltas[0] || "-";
-                        }
+                            let key = Object.keys(aluno)[index];
+                            if (key && aluno[key]) {
+                                dadosCompletos[disciplina].notas[i] = aluno[key].notas[0] || "-";
+                                dadosCompletos[disciplina].faltas[i] = aluno[key].faltas[0] || "-";
+                            }
+                        });
                     }
                 }
                 carregarBoletim(dadosCompletos);
@@ -132,4 +140,3 @@
     </script>
 </body>
 </html>
-
