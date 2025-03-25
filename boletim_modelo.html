@@ -72,34 +72,14 @@
     <script>
         async function buscarDados() {
             try {
-                let bimestres = ["dados1.json", "dados2.json", "dados3.json", "dados4.json"];
+                let response = await fetch('dados.json');
+                let data = await response.json();
                 let alunoId = "1";
-                let disciplinas = [
-                    "Língua Portuguesa", "Inglês", "Arte", "Educação Física", "Geografia", "História", "Matemática", 
-                    "Orientação de Estudos", "Projeto de Vida", "Eletiva", "Tecnologia e Inovação", "Ciências", 
-                    "Educação Financeira", "Práticas Experimentais"
-                ];
-                let dadosCompletos = {};
+                let aluno = data[alunoId];
                 
-                for (let i = 0; i < bimestres.length; i++) {
-                    let response = await fetch(bimestres[i]);
-                    let data = await response.json();
-                    let aluno = data[alunoId];
-                    
-                    if (aluno) {
-                        disciplinas.forEach((disciplina, index) => {
-                            if (!dadosCompletos[disciplina]) {
-                                dadosCompletos[disciplina] = { notas: ["-", "-", "-", "-"], faltas: ["-", "-", "-", "-"] };
-                            }
-                            let key = Object.keys(aluno)[index];
-                            if (key && aluno[key]) {
-                                dadosCompletos[disciplina].notas[i] = aluno[key].notas[0] || "-";
-                                dadosCompletos[disciplina].faltas[i] = aluno[key].faltas[0] || "-";
-                            }
-                        });
-                    }
+                if (aluno) {
+                    carregarBoletim(aluno);
                 }
-                carregarBoletim(dadosCompletos);
             } catch (error) {
                 console.error('Erro ao buscar os dados:', error);
             }
@@ -111,25 +91,37 @@
                 <th>Disciplina</th>
                 <th>1º Bim - Nota</th>
                 <th>1º Bim - Faltas</th>
+                <th>1º Bim - Faltas Acumuladas</th>
                 <th>2º Bim - Nota</th>
                 <th>2º Bim - Faltas</th>
+                <th>2º Bim - Faltas Acumuladas</th>
                 <th>3º Bim - Nota</th>
                 <th>3º Bim - Faltas</th>
+                <th>3º Bim - Faltas Acumuladas</th>
                 <th>4º Bim - Nota</th>
                 <th>4º Bim - Faltas</th>
+                <th>4º Bim - Faltas Acumuladas</th>
             </tr>`;
             
             for (let disciplina in jsonData) {
+                let notas = jsonData[disciplina].notas;
+                let faltas = jsonData[disciplina].faltas;
+                let faltasAcumuladas = jsonData[disciplina].faltas_acumuladas;
+                
                 tabelaHTML += `<tr>
                     <td>${disciplina}</td>
-                    <td>${jsonData[disciplina].notas[0]}</td>
-                    <td>${jsonData[disciplina].faltas[0]}</td>
-                    <td>${jsonData[disciplina].notas[1]}</td>
-                    <td>${jsonData[disciplina].faltas[1]}</td>
-                    <td>${jsonData[disciplina].notas[2]}</td>
-                    <td>${jsonData[disciplina].faltas[2]}</td>
-                    <td>${jsonData[disciplina].notas[3]}</td>
-                    <td>${jsonData[disciplina].faltas[3]}</td>
+                    <td>${notas[0]}</td>
+                    <td>${faltas[0]}</td>
+                    <td>${faltasAcumuladas[0] || "-"}</td>
+                    <td>${notas[1]}</td>
+                    <td>${faltas[1]}</td>
+                    <td>${faltasAcumuladas[1] || "-"}</td>
+                    <td>${notas[2]}</td>
+                    <td>${faltas[2]}</td>
+                    <td>${faltasAcumuladas[2] || "-"}</td>
+                    <td>${notas[3]}</td>
+                    <td>${faltas[3]}</td>
+                    <td>${faltasAcumuladas[3] || "-"}</td>
                 </tr>`;
             }
             
