@@ -72,14 +72,27 @@
     <script>
         async function buscarDados() {
             try {
-                let response = await fetch('dados.json');
-                let data = await response.json();
+                let bimestres = ["dados1.json", "dados2.json", "dados3.json", "dados4.json"];
                 let alunoId = "1";
-                let aluno = data[alunoId];
+                let dadosCompletos = {};
                 
-                if (aluno) {
-                    carregarBoletim(aluno);
+                for (let i = 0; i < bimestres.length; i++) {
+                    let response = await fetch(bimestres[i]);
+                    let data = await response.json();
+                    let aluno = data[alunoId];
+                    
+                    if (aluno) {
+                        for (let disciplina in aluno) {
+                            if (!dadosCompletos[disciplina]) {
+                                dadosCompletos[disciplina] = { notas: ["-", "-", "-", "-"], faltas: ["-", "-", "-", "-"], faltas_acumuladas: ["-", "-", "-", "-"] };
+                            }
+                            dadosCompletos[disciplina].notas[i] = aluno[disciplina].notas[0] || "-";
+                            dadosCompletos[disciplina].faltas[i] = aluno[disciplina].faltas[0] || "-";
+                            dadosCompletos[disciplina].faltas_acumuladas[i] = aluno[disciplina].faltas_acumuladas || "-";
+                        }
+                    }
                 }
+                carregarBoletim(dadosCompletos);
             } catch (error) {
                 console.error('Erro ao buscar os dados:', error);
             }
@@ -104,24 +117,20 @@
             </tr>`;
             
             for (let disciplina in jsonData) {
-                let notas = jsonData[disciplina].notas;
-                let faltas = jsonData[disciplina].faltas;
-                let faltasAcumuladas = jsonData[disciplina].faltas_acumuladas;
-                
                 tabelaHTML += `<tr>
                     <td>${disciplina}</td>
-                    <td>${notas[0]}</td>
-                    <td>${faltas[0]}</td>
-                    <td>${faltasAcumuladas[0] || "-"}</td>
-                    <td>${notas[1]}</td>
-                    <td>${faltas[1]}</td>
-                    <td>${faltasAcumuladas[1] || "-"}</td>
-                    <td>${notas[2]}</td>
-                    <td>${faltas[2]}</td>
-                    <td>${faltasAcumuladas[2] || "-"}</td>
-                    <td>${notas[3]}</td>
-                    <td>${faltas[3]}</td>
-                    <td>${faltasAcumuladas[3] || "-"}</td>
+                    <td>${jsonData[disciplina].notas[0]}</td>
+                    <td>${jsonData[disciplina].faltas[0]}</td>
+                    <td>${jsonData[disciplina].faltas_acumuladas[0]}</td>
+                    <td>${jsonData[disciplina].notas[1]}</td>
+                    <td>${jsonData[disciplina].faltas[1]}</td>
+                    <td>${jsonData[disciplina].faltas_acumuladas[1]}</td>
+                    <td>${jsonData[disciplina].notas[2]}</td>
+                    <td>${jsonData[disciplina].faltas[2]}</td>
+                    <td>${jsonData[disciplina].faltas_acumuladas[2]}</td>
+                    <td>${jsonData[disciplina].notas[3]}</td>
+                    <td>${jsonData[disciplina].faltas[3]}</td>
+                    <td>${jsonData[disciplina].faltas_acumuladas[3]}</td>
                 </tr>`;
             }
             
@@ -132,3 +141,4 @@
     </script>
 </body>
 </html>
+
