@@ -12,7 +12,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -26,7 +27,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -40,7 +42,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -54,7 +57,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -68,7 +72,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -82,7 +87,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": 10
     },
     "Matemática": {
       "notas": [
@@ -96,7 +102,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": 10
     },
     "Orientação de Estudos": {
       "notas": [
@@ -110,7 +117,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": 8
     },
     "Projeto de Vida": {
       "notas": [
@@ -124,7 +132,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -138,7 +147,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -152,7 +162,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -166,7 +177,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "2": {
@@ -182,7 +194,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -196,7 +209,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -210,7 +224,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -224,7 +239,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -238,7 +254,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -252,7 +269,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -266,7 +284,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -280,7 +299,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -294,7 +314,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -308,7 +329,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -322,7 +344,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -336,7 +359,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "3": {
@@ -352,7 +376,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -366,7 +391,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -380,7 +406,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -394,7 +421,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -408,7 +436,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -422,7 +451,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -436,7 +466,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -450,7 +481,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -464,7 +496,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -478,7 +511,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -492,7 +526,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -506,7 +541,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "4": {
@@ -522,7 +558,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -536,7 +573,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -550,7 +588,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -564,7 +603,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -578,7 +618,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -592,7 +633,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -606,7 +648,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -620,7 +663,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -634,7 +678,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -648,7 +693,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -662,7 +708,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -676,7 +723,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "5": {
@@ -692,7 +740,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -706,7 +755,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -720,7 +770,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -734,7 +785,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -748,7 +800,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -762,7 +815,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -776,7 +830,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -790,7 +845,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -804,7 +860,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -818,7 +875,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -832,7 +890,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -846,7 +905,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "6": {
@@ -862,7 +922,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -876,7 +937,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -890,7 +952,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -904,7 +967,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -918,7 +982,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -932,7 +997,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -946,7 +1012,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -960,7 +1027,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -974,7 +1042,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -988,7 +1057,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -1002,7 +1072,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -1016,7 +1087,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "7": {
@@ -1032,7 +1104,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -1046,7 +1119,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -1060,7 +1134,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -1074,7 +1149,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -1088,7 +1164,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -1102,7 +1179,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -1116,7 +1194,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -1130,7 +1209,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -1144,7 +1224,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -1158,7 +1239,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -1172,7 +1254,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -1186,7 +1269,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "8": {
@@ -1202,7 +1286,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -1216,7 +1301,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -1230,7 +1316,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -1244,7 +1331,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -1258,7 +1346,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -1272,7 +1361,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -1286,7 +1376,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -1300,7 +1391,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -1314,7 +1406,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -1328,7 +1421,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -1342,7 +1436,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -1356,7 +1451,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "9": {
@@ -1372,7 +1468,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -1386,7 +1483,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -1400,7 +1498,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -1414,7 +1513,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -1428,7 +1528,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -1442,7 +1543,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -1456,7 +1558,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -1470,7 +1573,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -1484,7 +1588,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -1498,7 +1603,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -1512,7 +1618,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -1526,7 +1633,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "10": {
@@ -1542,7 +1650,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -1556,7 +1665,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -1570,7 +1680,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -1584,7 +1695,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -1598,7 +1710,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -1612,7 +1725,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -1626,7 +1740,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -1640,7 +1755,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -1654,7 +1770,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -1668,7 +1785,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -1682,7 +1800,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -1696,7 +1815,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "11": {
@@ -1712,7 +1832,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -1726,7 +1847,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -1740,7 +1862,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -1754,7 +1877,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -1768,7 +1892,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -1782,7 +1907,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -1796,7 +1922,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -1810,7 +1937,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -1824,7 +1952,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -1838,7 +1967,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -1852,7 +1982,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -1866,7 +1997,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "12": {
@@ -1882,7 +2014,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -1896,7 +2029,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -1910,7 +2044,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -1924,7 +2059,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -1938,7 +2074,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -1952,7 +2089,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -1966,7 +2104,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -1980,7 +2119,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -1994,7 +2134,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -2008,7 +2149,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -2022,7 +2164,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -2036,7 +2179,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "13": {
@@ -2052,7 +2196,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -2066,7 +2211,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -2080,7 +2226,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -2094,7 +2241,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -2108,7 +2256,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -2122,7 +2271,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -2136,7 +2286,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -2150,7 +2301,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -2164,7 +2316,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -2178,7 +2331,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -2192,7 +2346,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -2206,7 +2361,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "14": {
@@ -2222,7 +2378,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -2236,7 +2393,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -2250,7 +2408,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -2264,7 +2423,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -2278,7 +2438,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -2292,7 +2453,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -2306,7 +2468,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -2320,7 +2483,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -2334,7 +2498,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -2348,7 +2513,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -2362,7 +2528,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -2376,7 +2543,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": 7
     }
   },
   "15": {
@@ -2392,7 +2560,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -2406,7 +2575,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -2420,7 +2590,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -2434,7 +2605,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -2448,7 +2620,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -2462,7 +2635,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -2476,7 +2650,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -2490,7 +2665,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -2504,7 +2680,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -2518,7 +2695,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -2532,7 +2710,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -2546,7 +2725,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "16": {
@@ -2562,7 +2742,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -2576,7 +2757,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -2590,7 +2772,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -2604,7 +2787,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -2618,7 +2802,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -2632,7 +2817,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -2646,7 +2832,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -2660,7 +2847,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -2674,7 +2862,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -2688,7 +2877,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -2702,7 +2892,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -2716,7 +2907,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "17": {
@@ -2732,7 +2924,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -2746,7 +2939,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -2760,7 +2954,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -2774,7 +2969,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -2788,7 +2984,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -2802,7 +2999,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -2816,7 +3014,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -2830,7 +3029,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -2844,7 +3044,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -2858,7 +3059,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -2872,7 +3074,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -2886,7 +3089,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "18": {
@@ -2902,7 +3106,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -2916,7 +3121,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -2930,7 +3136,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -2944,7 +3151,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -2958,7 +3166,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -2972,7 +3181,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -2986,7 +3196,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -3000,7 +3211,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -3014,7 +3226,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -3028,7 +3241,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -3042,7 +3256,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -3056,7 +3271,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "19": {
@@ -3072,7 +3288,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -3086,7 +3303,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -3100,7 +3318,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -3114,7 +3333,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -3128,7 +3348,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -3142,7 +3363,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -3156,7 +3378,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -3170,7 +3393,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -3184,7 +3408,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -3198,7 +3423,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -3212,7 +3438,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -3226,7 +3453,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "21": {
@@ -3242,7 +3470,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -3256,7 +3485,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -3270,7 +3500,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -3284,7 +3515,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -3298,7 +3530,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -3312,7 +3545,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -3326,7 +3560,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -3340,7 +3575,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -3354,7 +3590,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -3368,7 +3605,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -3382,7 +3620,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -3396,7 +3635,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "22": {
@@ -3412,7 +3652,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -3426,7 +3667,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -3440,7 +3682,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -3454,7 +3697,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -3468,7 +3712,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -3482,7 +3727,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -3496,7 +3742,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -3510,7 +3757,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -3524,7 +3772,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -3538,7 +3787,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -3552,7 +3802,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -3566,7 +3817,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "23": {
@@ -3582,7 +3834,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -3596,7 +3849,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -3610,7 +3864,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -3624,7 +3879,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -3638,7 +3894,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -3652,7 +3909,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -3666,7 +3924,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -3680,7 +3939,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -3694,7 +3954,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -3708,7 +3969,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -3722,7 +3984,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -3736,7 +3999,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "24": {
@@ -3752,7 +4016,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -3766,7 +4031,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -3780,7 +4046,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -3794,7 +4061,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -3808,7 +4076,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -3822,7 +4091,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -3836,7 +4106,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -3850,7 +4121,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -3864,7 +4136,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -3878,7 +4151,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -3892,7 +4166,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -3906,7 +4181,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "25": {
@@ -3922,7 +4198,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -3936,7 +4213,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -3950,7 +4228,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -3964,7 +4243,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -3978,7 +4258,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -3992,7 +4273,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -4006,7 +4288,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -4020,7 +4303,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -4034,7 +4318,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -4048,7 +4333,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -4062,7 +4348,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -4076,7 +4363,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "26": {
@@ -4092,7 +4380,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -4106,7 +4395,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -4120,7 +4410,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -4134,7 +4425,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -4148,7 +4440,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -4162,7 +4455,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -4176,7 +4470,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -4190,7 +4485,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -4204,7 +4500,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -4218,7 +4515,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -4232,7 +4530,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -4246,7 +4545,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "27": {
@@ -4262,7 +4562,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -4276,7 +4577,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -4290,7 +4592,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -4304,7 +4607,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -4318,7 +4622,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -4332,7 +4637,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -4346,7 +4652,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -4360,7 +4667,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -4374,7 +4682,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -4388,7 +4697,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -4402,7 +4712,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -4416,7 +4727,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "28": {
@@ -4432,7 +4744,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -4446,7 +4759,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -4460,7 +4774,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -4474,7 +4789,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -4488,7 +4804,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -4502,7 +4819,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -4516,7 +4834,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -4530,7 +4849,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -4544,7 +4864,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -4558,7 +4879,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -4572,7 +4894,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -4586,7 +4909,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "29": {
@@ -4602,7 +4926,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -4616,7 +4941,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -4630,7 +4956,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -4644,7 +4971,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -4658,7 +4986,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -4672,7 +5001,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -4686,7 +5016,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -4700,7 +5031,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -4714,7 +5046,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -4728,7 +5061,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -4742,7 +5076,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -4756,7 +5091,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "30": {
@@ -4772,7 +5108,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -4786,7 +5123,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -4800,7 +5138,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -4814,7 +5153,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -4828,7 +5168,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -4842,7 +5183,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -4856,7 +5198,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -4870,7 +5213,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -4884,7 +5228,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -4898,7 +5243,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -4912,7 +5258,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -4926,7 +5273,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "31": {
@@ -4942,7 +5290,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -4956,7 +5305,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -4970,7 +5320,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -4984,7 +5335,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -4998,7 +5350,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -5012,7 +5365,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -5026,7 +5380,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -5040,7 +5395,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -5054,7 +5410,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -5068,7 +5425,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -5082,7 +5440,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -5096,7 +5455,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "32": {
@@ -5112,7 +5472,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -5126,7 +5487,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -5140,7 +5502,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -5154,7 +5517,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -5168,7 +5532,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -5182,7 +5547,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -5196,7 +5562,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -5210,7 +5577,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -5224,7 +5592,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -5238,7 +5607,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -5252,7 +5622,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -5266,7 +5637,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "33": {
@@ -5282,7 +5654,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -5296,7 +5669,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -5310,7 +5684,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -5324,7 +5699,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -5338,7 +5714,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -5352,7 +5729,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -5366,7 +5744,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -5380,7 +5759,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -5394,7 +5774,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -5408,7 +5789,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -5422,7 +5804,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -5436,7 +5819,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "34": {
@@ -5452,7 +5836,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -5466,7 +5851,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -5480,7 +5866,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -5494,7 +5881,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -5508,7 +5896,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -5522,7 +5911,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -5536,7 +5926,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -5550,7 +5941,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -5564,7 +5956,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -5578,7 +5971,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -5592,7 +5986,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -5606,7 +6001,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "35": {
@@ -5622,7 +6018,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -5636,7 +6033,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -5650,7 +6048,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -5664,7 +6063,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -5678,7 +6078,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -5692,7 +6093,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -5706,7 +6108,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -5720,7 +6123,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -5734,7 +6138,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -5748,7 +6153,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -5762,7 +6168,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -5776,7 +6183,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "36": {
@@ -5792,7 +6200,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -5806,7 +6215,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -5820,7 +6230,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -5834,7 +6245,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -5848,7 +6260,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -5862,7 +6275,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -5876,7 +6290,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -5890,7 +6305,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -5904,7 +6320,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -5918,7 +6335,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -5932,7 +6350,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -5946,7 +6365,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "37": {
@@ -5962,7 +6382,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -5976,7 +6397,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -5990,7 +6412,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -6004,7 +6427,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -6018,7 +6442,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -6032,7 +6457,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -6046,7 +6472,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -6060,7 +6487,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -6074,7 +6502,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -6088,7 +6517,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -6102,7 +6532,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -6116,7 +6547,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "38": {
@@ -6132,7 +6564,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -6146,7 +6579,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -6160,7 +6594,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -6174,7 +6609,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -6188,7 +6624,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -6202,7 +6639,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -6216,7 +6654,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -6230,7 +6669,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -6244,7 +6684,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -6258,7 +6699,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -6272,7 +6714,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -6286,7 +6729,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "39": {
@@ -6302,7 +6746,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -6316,7 +6761,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -6330,7 +6776,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -6344,7 +6791,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -6358,7 +6806,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -6372,7 +6821,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -6386,7 +6836,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -6400,7 +6851,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -6414,7 +6866,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -6428,7 +6881,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -6442,7 +6896,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -6456,7 +6911,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "40": {
@@ -6472,7 +6928,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -6486,7 +6943,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -6500,7 +6958,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -6514,7 +6973,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -6528,7 +6988,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -6542,7 +7003,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -6556,7 +7018,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -6570,7 +7033,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -6584,7 +7048,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -6598,7 +7063,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -6612,7 +7078,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -6626,7 +7093,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "41": {
@@ -6642,7 +7110,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -6656,7 +7125,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -6670,7 +7140,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -6684,7 +7155,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -6698,7 +7170,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -6712,7 +7185,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -6726,7 +7200,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -6740,7 +7215,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -6754,7 +7230,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -6768,7 +7245,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -6782,7 +7260,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -6796,7 +7275,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "42": {
@@ -6812,7 +7292,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -6826,7 +7307,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -6840,7 +7322,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -6854,7 +7337,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -6868,7 +7352,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -6882,7 +7367,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -6896,7 +7382,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -6910,7 +7397,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -6924,7 +7412,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -6938,7 +7427,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -6952,7 +7442,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -6966,7 +7457,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "43": {
@@ -6982,7 +7474,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -6996,7 +7489,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -7010,7 +7504,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -7024,7 +7519,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -7038,7 +7534,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -7052,7 +7549,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -7066,7 +7564,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -7080,7 +7579,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -7094,7 +7594,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -7108,7 +7609,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -7122,7 +7624,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -7136,7 +7639,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "44": {
@@ -7152,7 +7656,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -7166,7 +7671,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -7180,7 +7686,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -7194,7 +7701,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -7208,7 +7716,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -7222,7 +7731,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -7236,7 +7746,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -7250,7 +7761,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -7264,7 +7776,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -7278,7 +7791,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -7292,7 +7806,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -7306,7 +7821,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "45": {
@@ -7322,7 +7838,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -7336,7 +7853,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -7350,7 +7868,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -7364,7 +7883,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -7378,7 +7898,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -7392,7 +7913,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -7406,7 +7928,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -7420,7 +7943,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -7434,7 +7958,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -7448,7 +7973,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -7462,7 +7988,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -7476,7 +8003,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "46": {
@@ -7492,7 +8020,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -7506,7 +8035,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -7520,7 +8050,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -7534,7 +8065,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -7548,7 +8080,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -7562,7 +8095,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -7576,7 +8110,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -7590,7 +8125,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -7604,7 +8140,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -7618,7 +8155,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -7632,7 +8170,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -7646,7 +8185,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "47": {
@@ -7662,7 +8202,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -7676,7 +8217,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -7690,7 +8232,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -7704,7 +8247,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -7718,7 +8262,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -7732,7 +8277,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -7746,7 +8292,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -7760,7 +8307,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -7774,7 +8322,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -7788,7 +8337,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -7802,7 +8352,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -7816,7 +8367,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   },
   "48": {
@@ -7832,7 +8384,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Inglês": {
       "notas": [
@@ -7846,7 +8399,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Arte": {
       "notas": [
@@ -7860,7 +8414,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Educação Física": {
       "notas": [
@@ -7874,7 +8429,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Geografia": {
       "notas": [
@@ -7888,7 +8444,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "História": {
       "notas": [
@@ -7902,7 +8459,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Matemática": {
       "notas": [
@@ -7916,7 +8474,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Orientação de Estudos": {
       "notas": [
@@ -7930,7 +8489,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Projeto de Vida": {
       "notas": [
@@ -7944,7 +8504,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Eletiva": {
       "notas": [
@@ -7958,7 +8519,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Tecnologia e Inovação": {
       "notas": [
@@ -7972,7 +8534,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     },
     "Ciências": {
       "notas": [
@@ -7986,7 +8549,8 @@
         "-",
         "-",
         "-"
-      ]
+      ],
+      "faltas_acumuladas": "-"
     }
   }
 }
