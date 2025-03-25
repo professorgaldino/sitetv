@@ -75,21 +75,26 @@
                 let bimestres = ["dados1.json", "dados2.json", "dados3.json", "dados4.json"];
                 let alunoId = "1";
                 let dadosCompletos = {};
-                
+
                 for (let i = 0; i < bimestres.length; i++) {
-                    let response = await fetch(bimestres[i]);
-                    let data = await response.json();
-                    let aluno = data[alunoId];
-                    
-                    if (aluno) {
-                        for (let disciplina in aluno) {
-                            if (!dadosCompletos[disciplina]) {
-                                dadosCompletos[disciplina] = { notas: ["-", "-", "-", "-"], faltas: ["-", "-", "-", "-"], faltas_acumuladas: ["-", "-", "-", "-"] };
+                    try {
+                        let response = await fetch(bimestres[i]);
+                        if (!response.ok) throw new Error(`Arquivo ${bimestres[i]} não encontrado`);
+                        let data = await response.json();
+                        let aluno = data[alunoId];
+
+                        if (aluno) {
+                            for (let disciplina in aluno) {
+                                if (!dadosCompletos[disciplina]) {
+                                    dadosCompletos[disciplina] = { notas: ["-", "-", "-", "-"], faltas: ["-", "-", "-", "-"], faltas_acumuladas: ["-", "-", "-", "-"] };
+                                }
+                                dadosCompletos[disciplina].notas[i] = aluno[disciplina].notas[0] || "-";
+                                dadosCompletos[disciplina].faltas[i] = aluno[disciplina].faltas[0] || "-";
+                                dadosCompletos[disciplina].faltas_acumuladas[i] = aluno[disciplina].faltas_acumuladas || "-";
                             }
-                            dadosCompletos[disciplina].notas[i] = aluno[disciplina].notas[0] || "-";
-                            dadosCompletos[disciplina].faltas[i] = aluno[disciplina].faltas[0] || "-";
-                            dadosCompletos[disciplina].faltas_acumuladas[i] = aluno[disciplina].faltas_acumuladas || "-";
                         }
+                    } catch (error) {
+                        console.warn(error.message);
                     }
                 }
                 carregarBoletim(dadosCompletos);
@@ -115,7 +120,7 @@
                 <th>4º Bim - Faltas</th>
                 <th>4º Bim - Faltas Acumuladas</th>
             </tr>`;
-            
+
             for (let disciplina in jsonData) {
                 tabelaHTML += `<tr>
                     <td>${disciplina}</td>
@@ -133,7 +138,7 @@
                     <td>${jsonData[disciplina].faltas_acumuladas[3]}</td>
                 </tr>`;
             }
-            
+
             boletim.innerHTML = tabelaHTML;
         }
 
@@ -141,4 +146,3 @@
     </script>
 </body>
 </html>
-
