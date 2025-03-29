@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocorrências</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Alterado de #f5f5f5 para #ffffff para fundo branco */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .logo:hover {
+            transform: scale(1.1);
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #2259f2;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: #2259f2;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ed2c0d;
+            transform: scale(1.05);
+        }
+        .btn:active {
+            background-color: #a82a01;
+            transform: scale(1);
+        }
+        .btn:focus {
+            outline: none;
+        }
+        .btn-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px 0;
+        }
+        @media (max-width: 600px) {
+            .logo {
+                width: 150px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logoescola.jpeg" alt="Logo da Escola" class="logo">
+        <h2>Ocorrências por Sala</h2>
+        <div class="btn-container">
+            <a href="form6a.html" class="btn">6A</a>
+            <a href="form6b.html" class="btn">6B</a>
+            <a href="form6c.html" class="btn">6C</a>
+            <a href="form7a.html" class="btn">7A</a>
+            <a href="form7b.html" class="btn">7B</a>
+            <a href="form7c.html" class="btn">7C</a>
+            <a href="form8a.html" class="btn">8A</a>
+            <a href="form8b.html" class="btn">8B</a>
+            <a href="form8c.html" class="btn">8C</a>
+            <a href="form9a.html" class="btn">9A</a>
+            <a href="form9b.html" class="btn">9B</a>
+            <a href="form9c.html" class="btn">9C</a>
+            <a href="form1a.html" class="btn">1A</a>
+            <a href="form1b.html" class="btn">1B</a>
+            <a href="form1c.html" class="btn">1C</a>
+            <a href="form2a.html" class="btn">2A</a>
+            <a href="form3a.html" class="btn">3A</a>
+            <a href="form3adm.html" class="btn">3ADM</a>
+        </div>
+    </div>
+</body>
+</html>
