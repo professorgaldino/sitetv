@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ferramentas de Uso Interno</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container img {
+            width: 200px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            margin-top: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: #2259f2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #ed2c0d;
+        }
+        .btn-whatsapp {
+            display: block;
+            width: 80%;
+            background-color: red;
+            color: white;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px auto 0;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="logoescola.jpeg" alt="Logo da Escola">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Nome de usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button class="btn" onclick="login()">Entrar</button>
+        <a href="https://wa.me/5519996470380" class="btn-whatsapp">Não consigo entrar</a>
+        <p id="error-message" style="color: red; display: none;">Usuário ou senha incorretos</p>
+    </div>
+
+    <script>
+        function login() {
+            var users = ["david", "everton", "fernando", "roseane", "cristiane", "luan", "alex", "fabiana", "mara", "elida", "beratrizm", "beatrizg", "gabrield", "alinem", "monica", "ana", "daniel", "emeline", "josi", "josias", "juliana", "lucas", "marcia", "rodrigo", "vanessa", "adriana", "andresa", "dener", "edivaldo", "gabrielr", "cecilia", "patricia", "valdo", "alinel", "guilherme", "augusto", "rebeca"];
+            var username = document.getElementById("username").value.toLowerCase();
+            var password = document.getElementById("password").value;
+            var correctPassword = username + "@villani";
+
+            if (users.includes(username) && password === correctPassword) {
+                window.location.href = "ferramentas.html";
+            } else {
+                document.getElementById("error-message").style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

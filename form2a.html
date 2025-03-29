@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Ocorrência</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f2f5;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 12px;
+            display: block;
+            color: #555;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .checkbox-container input {
+            width: auto;
+            margin-right: 8px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #007bff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        @media (max-width: 450px) {
+            .container {
+                padding: 20px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Ocorrência</h2>
+        <form id="ocorrenciaForm">
+            <label for="aluno">Selecione o Aluno:</label>
+            <select id="aluno" required>
+                <option value="" disabled selected>Escolha um aluno</option>
+                <option value="NICOLE DE FÁTIMA PEREIRA">NICOLE DE FÁTIMA PEREIRA</option>
+                <option value="ALLYSON ARAUJO DE LIRA">ALLYSON ARAUJO DE LIRA</option>
+                <option value="BEATRIZ GOMES TRINDADE">BEATRIZ GOMES TRINDADE</option>
+                <option value="CRISTIAN PIETRO DE MARCHI ANUNCIATO">CRISTIAN PIETRO DE MARCHI ANUNCIATO</option>
+                <option value="DANILO DE SOUZA AQUINO">DANILO DE SOUZA AQUINO</option>
+                <option value="DAVI EDUARDO ALBORGHETTI">DAVI EDUARDO ALBORGHETTI</option>
+                <option value="ELIZA VITÓRIA FLORENCIO">ELIZA VITÓRIA FLORENCIO</option>
+                <option value="EMANUEL BRAGA RODRIGUES COSTA">EMANUEL BRAGA RODRIGUES COSTA</option>
+                <option value="EMANUELLE LIMA GAMA">EMANUELLE LIMA GAMA</option>
+                <option value="GABRIEL AUGUSTO ALEGRE">GABRIEL AUGUSTO ALEGRE</option>
+                <option value="GABRIELA ALVES">GABRIELA ALVES</option>
+                <option value="GABRIELA VITÓRIA SANDRÉ">GABRIELA VITÓRIA SANDRÉ</option>
+                <option value="GABRIELLE FERNANDA DA SILVA">GABRIELLE FERNANDA DA SILVA</option>
+                <option value="GREICYANE RIBEIRO DE ARAÚJO">GREICYANE RIBEIRO DE ARAÚJO</option>
+                <option value="JOÃO PEDRO POLI RAMOS">JOÃO PEDRO POLI RAMOS</option>
+                <option value="KEROLAYNE VICTÓRIA DE JESUS FERREIRA">KEROLAYNE VICTÓRIA DE JESUS FERREIRA</option>
+                <option value="KETHELIN CRISTINA FERREIRA PIRES">KETHELIN CRISTINA FERREIRA PIRES</option>
+                <option value="LAYSLA VICTÓRIA FLOZINO">LAYSLA VICTÓRIA FLOZINO</option>
+                <option value="LISSANDA PIERRE LOUIS">LISSANDA PIERRE LOUIS</option>
+                <option value="LUCAS RODRIGUES DA SILVA">LUCAS RODRIGUES DA SILVA</option>
+                <option value="LUCAS VINICIUS DOS SANTOS">LUCAS VINICIUS DOS SANTOS</option>
+                <option value="LUÍS ANTÔNIO SOBRAL DOS SANTOS">LUÍS ANTÔNIO SOBRAL DOS SANTOS</option>
+                <option value="LUIZ FELIPE BARBOSA DOS SANTOS">LUIZ FELIPE BARBOSA DOS SANTOS</option>
+                <option value="MATEUS DE OLIVEIRA ZALATIN">MATEUS DE OLIVEIRA ZALATIN</option>
+                <option value="MIQUÉIAS YBRAIM DE SOUZA">MIQUÉIAS YBRAIM DE SOUZA</option>
+                <option value="NATHAN DE OLIVEIRA SOUZA">NATHAN DE OLIVEIRA SOUZA</option>
+                <option value="PALLOMA VITÓRIA FERREIRA DE OLIVEIRA">PALLOMA VITÓRIA FERREIRA DE OLIVEIRA</option>
+                <option value="RENAN ALVES PEREIRA">RENAN ALVES PEREIRA</option>
+                <option value="WENDEL PROCOPIO DE AQUINO">WENDEL PROCOPIO DE AQUINO</option>
+                <option value="WENDELL ZAVOSKI VIEIRA">WENDELL ZAVOSKI VIEIRA</option>
+                <option value="WILLIAM WALLACE DIAS">WILLIAM WALLACE DIAS</option>
+                <option value="WILLIANS ROBERTO DA SILVA">WILLIANS ROBERTO DA SILVA</option>
+
+            </select>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" required>
+
+            <label for="horario">Horário:</label>
+            <input type="time" id="horario" required>
+
+            <label for="professor">Nome do Professor:</label>
+            <input type="text" id="professor" placeholder="Digite seu nome" required>
+
+            <label for="descricao">Descrição da Ocorrência:</label>
+            <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
+
+            <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
+            <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="confirmacao" required>
+                <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
+            </div>
+
+            <button type="submit">Enviar Ocorrência</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            const aluno = document.getElementById("aluno").value;
+            const dataInput = document.getElementById("data").value;
+            const horario = document.getElementById("horario").value;
+            const professor = document.getElementById("professor").value;
+            const descricao = document.getElementById("descricao").value;
+            const acao = document.getElementById("acao").value;
+            const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
+            const telefone = "5519990020650";
+
+            // Ajustando o formato da data para dd/mm/yyyy
+            const [ano, mes, dia] = dataInput.split("-");
+            const dataFormatada = `${dia}/${mes}/${ano}`;
+            
+            let mensagem = `Registro de Ocorrência:\n\n` +
+                `Aluno: ${aluno}\n` +
+                `Data: ${dataFormatada}\n` +
+                `Horário: ${horario}\n` +
+                `Professor: ${professor}\n` +
+                `Descrição: ${descricao}\n` +
+                `Ação Tomada: ${acao}\n\n` +
+                `${confirmacao}`;
+            
+            const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
+            window.open(url, "_blank");
+        });
+    </script>
+</body>
+</html>
