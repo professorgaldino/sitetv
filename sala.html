@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boletins por Sala</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    .back-button {
+      align-self: flex-start;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+
+    .back-button a {
+      background: #ffffff;
+      color: #4a90e2;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      border: 2px solid #4a90e2;
+      transition: all 0.2s ease;
+    }
+
+    .back-button a:hover {
+      background: #4a90e2;
+      color: #ffffff;
+    }
+
+    .logo-container {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      display: block;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .btn {
+      background: #4a90e2;
+      color: white;
+      padding: 14px;
+      text-align: center;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn:hover {
+      background: #3578d4;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="back-button">
+    <a href="https://professorgaldino.github.io/sitetv/">← Voltar para o Site</a>
+  </div>
+
+  <div class="logo-container">
+    <img class="logo" src="logoescola.png" alt="Logo da Escola" />
+  </div>
+
+  <h1>Boletins por Sala</h1>
+
+  <div class="grid">
+    <a class="btn" href="https://professorgaldino.github.io/6a/">6A</a>
+    <a class="btn" href="https://professorgaldino.github.io/6b/">6B</a>
+    <a class="btn" href="https://professorgaldino.github.io/6c/">6C</a>
+    <a class="btn" href="https://professorgaldino.github.io/7a/">7A</a>
+    <a class="btn" href="https://professorgaldino.github.io/7b/">7B</a>
+    <a class="btn" href="https://professorgaldino.github.io/7c/">7C</a>
+    <a class="btn" href="https://professorgaldino.github.io/8a/">8A</a>
+    <a class="btn" href="https://professorgaldino.github.io/8b/">8B</a>
+    <a class="btn" href="https://professorgaldino.github.io/8c/">8C</a>
+    <a class="btn" href="https://professorgaldino.github.io/9a/">9A</a>
+    <a class="btn" href="https://professorgaldino.github.io/9b/">9B</a>
+    <a class="btn" href="https://professorgaldino.github.io/9c/">9C</a>
+    <a class="btn" href="https://professorgaldino.github.io/1a/">1A</a>
+    <a class="btn" href="https://professorgaldino.github.io/1b/">1B</a>
+    <a class="btn" href="https://professorgaldino.github.io/2a/">2A</a>
+    <a class="btn" href="https://professorgaldino.github.io/3a/">3A</a>
+    <a class="btn" href="https://professorgaldino.github.io/3adm/">3ADM</a>
+  </div>
+
+  <footer>
+    © 2025 Professor Galdino - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
