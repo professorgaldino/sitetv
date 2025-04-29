@@ -11,7 +11,6 @@
       box-sizing: border-box;
       font-family: 'Arial', sans-serif;
     }
-
     body {
       display: flex;
       justify-content: center;
@@ -20,7 +19,6 @@
       background: #f0f2f5;
       padding: 20px;
     }
-
     .container {
       background: white;
       padding: 25px;
@@ -29,20 +27,17 @@
       max-width: 400px;
       width: 100%;
     }
-
     h2 {
       text-align: center;
       color: #333;
       margin-bottom: 15px;
     }
-
     label {
       font-weight: bold;
       margin-top: 12px;
       display: block;
       color: #555;
     }
-
     input, select, textarea {
       width: 100%;
       padding: 10px;
@@ -51,22 +46,18 @@
       border-radius: 8px;
       font-size: 14px;
     }
-
     textarea {
       resize: none;
     }
-
     .checkbox-container {
       display: flex;
       align-items: center;
       margin-top: 10px;
     }
-
     .checkbox-container input {
       width: auto;
       margin-right: 8px;
     }
-
     button {
       width: 100%;
       padding: 12px;
@@ -80,11 +71,9 @@
       cursor: pointer;
       transition: 0.3s;
     }
-
     button:hover {
       background: #0056b3;
     }
-
     @media (max-width: 450px) {
       .container {
         padding: 20px;
@@ -102,7 +91,6 @@
         <option value="" disabled selected>Escolha um aluno</option>
         <option value="ADRIAN LUIZ CORRÊA">ADRIAN LUIZ CORRÊA</option>
         <option value="ALVARO GABRIEL MATEUS SILVA">ALVARO GABRIEL MATEUS SILVA</option>
-        <option value="ARTHUR SZUCS BARROS">ARTHUR SZUCS BARROS</option>
         <option value="CARLOS EDUARDO DE MELO">CARLOS EDUARDO DE MELO</option>
         <option value="CARLOS EDUARDO GRANDO DIONISIO">CARLOS EDUARDO GRANDO DIONISIO</option>
         <option value="CAUÃ VINÍCIUS GERMANO DA SILVA">CAUÃ VINÍCIUS GERMANO DA SILVA</option>
@@ -110,28 +98,25 @@
         <option value="GERSON JOAQUIM FLORIANO">GERSON JOAQUIM FLORIANO</option>
         <option value="GUSTAVO HENRIQUE MARCELINO">GUSTAVO HENRIQUE MARCELINO</option>
         <option value="GUSTAVO RODRIGUES MARCIANO">GUSTAVO RODRIGUES MARCIANO</option>
-        <option value="JOSÉ MESSIAS DOS SANTOS">JOSÉ MESSIAS DOS SANTOS</option>
         <option value="ISABELLY VICTORIA FERREIRA DOS SANTOS">ISABELLY VICTORIA FERREIRA DOS SANTOS</option>
         <option value="LAVÍNIA RIBEIRO DA SILVA">LAVÍNIA RIBEIRO DA SILVA</option>
-        <option value="LEONARDO VINÍCIUS AMISS">LEONARDO VINÍCIOS AMISS</option>
+        <option value="LEONARDO VINÍCIUS AMISS">LEONARDO VINÍCIUS AMISS</option>
         <option value="LUCAS TOTENE GIMENEZ">LUCAS TOTENE GIMENEZ</option>
-        <option value="MAÍSA VITÓRIA MACHADO VIEIRA">MAÍSA VITÓRIA MACHADO VIEIRA</option>
         <option value="MARIA EDUARDA DOS SANTOS PAULA">MARIA EDUARDA DOS SANTOS PAULA</option>
         <option value="MARIA HELENA VIEIRA JULIO">MARIA HELENA VIEIRA JULIO</option>
+        <option value="MAÍSA VITÓRIA MACHADO VIEIRA">MAÍSA VITÓRIA MACHADO VIEIRA</option>
         <option value="MICAEL JANUZELLI MARTINS PEREIRA">MICAEL JANUZELLI MARTINS PEREIRA</option>
         <option value="MIGUEL ZAVOSKI VIEIRA">MIGUEL ZAVOSKI VIEIRA</option>
         <option value="NAYARA INGRIDY ROBERTO">NAYARA INGRIDY ROBERTO</option>
         <option value="NICOLLY DA SILVA THOMAZINI">NICOLLY DA SILVA THOMAZINI</option>
-        <option value="PEDRO FAGANELO">PEDRO FAGANELO</option>
         <option value="PEDRO DE ALBUQUERQUE FERREIRA">PEDRO DE ALBUQUERQUE FERREIRA</option>
-        <option value="PEDRO HENRIQUE DE OLIVEIRA FIGUEIREDO">PEDRO HENRIQUE DE OLIVEIRA FIGUEIREDO</option>
         <option value="PEDRO HENRIQUE ALVES DA SILVA">PEDRO HENRIQUE ALVES DA SILVA</option>
         <option value="PEDRO HENRIQUE MATEUS DA SILVA">PEDRO HENRIQUE MATEUS DA SILVA</option>
         <option value="RAPHAELLY CAMILLY ROBERTO">RAPHAELLY CAMILLY ROBERTO</option>
         <option value="RAQUEL HELENA VICENTE DA SILVA">RAQUEL HELENA VICENTE DA SILVA</option>
         <option value="RENAN FERNANDES BARBOSA">RENAN FERNANDES BARBOSA</option>
-        <option value="SOFÍ GONÇALVES DOS REIS">SOFÍ GONÇALVES DOS REIS</option>
         <option value="SOFIA TOTENE GIMENEZ">SOFIA TOTENE GIMENEZ</option>
+        <option value="SOFÍ GONÇALVES DOS REIS">SOFÍ GONÇALVES DOS REIS</option>
         <option value="SOPHIA ROBERTA DA SILVEIRA ALBUQUERQUE">SOPHIA ROBERTA DA SILVEIRA ALBUQUERQUE</option>
         <option value="TACIANE VITÓRIA SIMÕES">TACIANE VITÓRIA SIMÕES</option>
         <option value="TAYLINE CRISTINA NASCIMENTO DOS SANTOS">TAYLINE CRISTINA NASCIMENTO DOS SANTOS</option>
@@ -140,8 +125,11 @@
         <option value="VITÓRIA DE JESUS TEIXEIRA">VITÓRIA DE JESUS TEIXEIRA</option>
         <option value="VITÓRIA ISABELLY NOGUEIRA CAMPEZONI">VITÓRIA ISABELLY NOGUEIRA CAMPEZONI</option>
         <option value="REBEKA ISMAELLY DE OLIVEIRA">REBEKA ISMAELLY DE OLIVEIRA</option>
-        <option value="YAGO EDUARDO SILVA DE MELO">YAGO EDUARDO SILVA DE MELO</option>
+
       </select>
+
+      <label for="tutor">Tutor do Aluno:</label>
+      <input type="text" id="tutor" readonly>
 
       <label for="data">Data:</label>
       <input type="date" id="data" required>
@@ -168,10 +156,56 @@
   </div>
 
   <script>
+    const relacaoTutoria = {
+      "ADRYAN HENRIQUE DE OLIVEIRA": "Fernando",
+      "ADRIAN LUIZ CORRÊA": "Emeline",
+      "ALVARO GABRIEL MATEUS SILVA": "Renato",
+      "CARLOS EDUARDO DE MELO": "Mara",
+      "CARLOS EDUARDO GRANDO DIONISIO": "Emeline",
+      "CAUÃ VINÍCIUS GERMANO DA SILVA": "Renato",
+      "FELIPE OSMAR NASCIMENTO ROSA": "Cecília",
+      "GERSON JOAQUIM FLORIANO": "TR",
+      "GUSTAVO HENRIQUE MARCELINO": "Cecília",
+      "GUSTAVO RODRIGUES MARCIANO": "Emeline",
+      "ISABELLY VICTORIA FERREIRA DOS SANTOS": "Fabiana",
+      "LAVÍNIA RIBEIRO DA SILVA": "Fernando",
+      "LEONARDO VINÍCIUS AMISS": "Emeline",
+      "LUCAS TOTENE GIMENEZ": "Augusto",
+      "MARIA EDUARDA DOS SANTOS PAULA": "Fabiana",
+      "MARIA HELENA VIEIRA JULIO": "Daniel",
+      "MAÍSA VITÓRIA MACHADO VIEIRA": "Fabiana",
+      "MICAEL JANUZELLI MARTINS PEREIRA": "Fernando",
+      "MIGUEL ZAVOSKI VIEIRA": "Daniel",
+      "NAYARA INGRIDY ROBERTO": "Fernando",
+      "NICOLLY DA SILVA THOMAZINI": "Cecilia",
+      "PEDRO DE ALBUQUERQUE FERREIRA": "Emeline",
+      "PEDRO HENRIQUE ALVES DA SILVA": "Luan",
+      "PEDRO HENRIQUE MATEUS DA SILVA": "Cecília",
+      "RAPHAELLY CAMILLY ROBERTO": "Cecília",
+      "RAQUEL HELENA VICENTE DA SILVA": "Cristiane",
+      "RENAN FERNANDES BARBOSA": "Renato",
+      "SOFIA TOTENE GIMENEZ": "Fernando",
+      "SOFÍ GONÇALVES DOS REIS": "Juliana",
+      "SOPHIA ROBERTA DA SILVEIRA ALBUQUERQUE": "Augusto",
+      "TACIANE VITÓRIA SIMÕES": "Fernando",
+      "TAYLINE CRISTINA NASCIMENTO DOS SANTOS": "Cecília",
+      "VICTOR MIGUEL PEREIRA DE ARAUJO": "Emeline",
+      "VINÍCIUS EDUARDO NASCIMENTO DE OLIVEIRA": "Cecília",
+      "VITÓRIA DE JESUS TEIXEIRA": "Cristiane",
+      "VITÓRIA ISABELLY NOGUEIRA CAMPEZONI": "Aline H",
+      "REBEKA ISMAELLY DE OLIVEIRA": "Luan"
+    };
+
+    document.getElementById("aluno").addEventListener("change", function() {
+      const alunoSelecionado = this.value;
+      document.getElementById("tutor").value = relacaoTutoria[alunoSelecionado] || "";
+    });
+
     document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
       event.preventDefault();
-      
+
       const aluno = document.getElementById("aluno").value;
+      const tutor = document.getElementById("tutor").value;
       const dataInput = document.getElementById("data").value;
       const horario = document.getElementById("horario").value;
       const professor = document.getElementById("professor").value;
@@ -184,14 +218,15 @@
       const dataFormatada = `${dia}/${mes}/${ano}`;
 
       let mensagem = `Registro de Ocorrência:\n\n` +
-        `Turma: 7°B\n` +
-        `Aluno: ${aluno}\n` +
-        `Data: ${dataFormatada}\n` +
-        `Horário: ${horario}\n` +
-        `Professor: ${professor}\n` +
-        `Descrição: ${descricao}\n` +
-        `Ação Tomada: ${acao}\n\n` +
-        `${confirmacao}`;
+          `Turma: 6°A\n` +
+          `Aluno: ${aluno}\n` +
+          `Tutor: ${tutor}\n` +
+          `Data: ${dataFormatada}\n` +
+          `Horário: ${horario}\n` +
+          `Professor: ${professor}\n` +
+          `Descrição: ${descricao}\n` +
+          `Ação Tomada: ${acao}\n\n` +
+          `${confirmacao}`;
 
       const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
       window.open(url, "_blank");
