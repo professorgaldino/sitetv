@@ -1,105 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Ocorrência</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #f0f2f5;
-            padding: 20px;
-        }
-
-        .container {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 100%;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        label {
-            font-weight: bold;
-            margin-top: 12px;
-            display: block;
-            color: #555;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 14px;
-        }
-
-        textarea {
-            resize: none;
-        }
-
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-        }
-
-        .checkbox-container input {
-            width: auto;
-            margin-right: 8px;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            margin-top: 20px;
-            background: #007bff;
-            border: none;
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        @media (max-width: 450px) {
-            .container {
-                padding: 20px;
-                max-width: 100%;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Ocorrência</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f0f2f5;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 12px;
+      display: block;
+      color: #555;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    textarea {
+      resize: none;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .checkbox-container input {
+      width: auto;
+      margin-right: 8px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background: #007bff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    @media (max-width: 450px) {
+      .container {
+        padding: 20px;
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Registro de Ocorrência</h2>
-        <form id="ocorrenciaForm">
-            <label for="aluno">Selecione o Aluno:</label>
-            <select id="aluno" required>
-                <option value="" disabled selected>Escolha um aluno</option>
+  <div class="container">
+    <h2>Registro de Ocorrência</h2>
+    <form id="ocorrenciaForm">
+      <label for="aluno">Selecione o Aluno:</label>
+      <select id="aluno" required>
+      <option value="" disabled selected>Escolha um aluno</option>
                 <option value="ALEXSANDRO OLIVEIRA DA SILVA">ALEXSANDRO OLIVEIRA DA SILVA</option>
                 <option value="ANA JÚLIA DE OLIVEIRA ANDRADE">ANA JÚLIA DE OLIVEIRA ANDRADE</option>
                 <option value="ANA LÍVIA DE SOUZA ROQUE">ANA LÍVIA DE SOUZA ROQUE</option>
@@ -145,63 +134,111 @@
                 <option value="VITÓRIA GOMES DE FREITAS">VITÓRIA GOMES DE FREITAS</option>
                 <option value="MARIA VITÓRIA ALVES">MARIA VITÓRIA ALVES</option>
                 <option value="MAYKON SOARES DA SILVA">MAYKON SOARES DA SILVA</option>
+      </select>
 
-            </select>
+      <label for="tutor">Tutor do Aluno:</label>
+      <input type="text" id="tutor" readonly>
 
-            <label for="data">Data:</label>
-            <input type="date" id="data" required>
+      <label for="data">Data:</label>
+      <input type="date" id="data" required>
 
-            <label for="horario">Horário:</label>
-            <input type="time" id="horario" required>
+      <label for="horario">Horário:</label>
+      <input type="time" id="horario" required>
 
-            <label for="professor">Nome do Professor:</label>
-            <input type="text" id="professor" placeholder="Digite seu nome" required>
+      <label for="professor">Nome do Professor:</label>
+      <input type="text" id="professor" placeholder="Digite seu nome" required>
 
-            <label for="descricao">Descrição da Ocorrência:</label>
-            <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
+      <label for="descricao">Descrição da Ocorrência:</label>
+      <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
 
-            <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
-            <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
+      <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
+      <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
 
-            <div class="checkbox-container">
-                <input type="checkbox" id="confirmacao" required>
-                <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
-            </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="confirmacao" required>
+        <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
+      </div>
 
-            <button type="submit">Enviar Ocorrência</button>
-        </form>
-    </div>
+      <button type="submit">Enviar Ocorrência</button>
+    </form>
+  </div>
 
-    <script>
-        document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            
-            const aluno = document.getElementById("aluno").value;
-            const dataInput = document.getElementById("data").value;
-            const horario = document.getElementById("horario").value;
-            const professor = document.getElementById("professor").value;
-            const descricao = document.getElementById("descricao").value;
-            const acao = document.getElementById("acao").value;
-            const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
-            const telefone = "5519997984511";
+  <script>
+    const relacaoTutoria = {
+      "ALEXSANDRO OLIVEIRA DA SILVA": "David",
+      "ANA JÚLIA DE OLIVEIRA ANDRADE": "Elida",
+      "ANDRE GIMENEZ TONOBOHON": "David",
+      "ANNA JULIA SANTANA DA SILVA": "Elida",
+      "BEATRIZ CESAR MUNIZ": "Roseane",
+      "BRYAN DA SILVA CASSIANO": "NC",
+      "CARLOS ALEXANDRE MALTA": "Tutor 05/03/2025",
+      "DAVI HENRIQUE BUZATO VIEIRA": "Valdo",
+      "DAVID MATHEUS CAMARGO DE SOUZA": "Beatriz EF",
+      "EDUARDO GABRIEL DE ARAUJO MARTINS": "Augusto",
+      "ELLEN MARIA SILVA ROSA": "Augusto",
+      "ELOA VITORIA RODRIGUES DE SOUZA": "Beatriz EF",
+      "FERNANDO CÉSAR ROSSI DE SOUZA": "Mara",
+      "GABRIEL FERNANDES LIMA DA SILVA": "Roseane",
+      "GABRIELLA MICHAELLA PETEKECIUS": "Alequissandro",
+      "JEAN BRAYAN PARMEZANI SILVÉRIO": "Alequissandro",
+      "JEFFERSON LUCAS FELIX PROCÓPIO": "Alequissandro",
+      "JOÃO MURILO FELISBERTO DA SILVA": "Roseane",
+      "JOÃO VITOR DA SILVA REIS": "Beatriz EF",
+      "JULIA LIMA GOMES DE SOUZA": "Elida",
+      "JÚLIA DE ARRUDA DE SOUZA": "Beatriz EF",
+      "LINCOLN EDUARDO MUNHOES GOMES": "David",
+      "LIVIA MARIANO": "Alequissandro",
+      "LUIZ HENRIQUE MARCELINO": "Luan",
+      "MARIA CLARA ROSSATTO MARTINIANO": "Elida",
+      "MATHEUS CRISTIANO BARBOSA DOS SANTOS": "Alequissandro",
+      "MICHEL KAUAN MARQUES DE SOUSA": "Alequissandro",
+      "MIGUEL HAILTON DE SOUZA": "Alequissandro",
+      "PEDRO HENRIQUE SILVA DE BARROS": "Alequissandro",
+      "RAUAN GABRIEL FERREIRA PENTEADO": "Luan",
+      "RAYSSA VITÓRIA TEODORO": "Elida",
+      "RENAN ELOI DE BRITO": "Beatriz EF",
+      "RENATO OLIVEIRA": "Ana",
+      "VICTOR HENRIQUE DA SILVA DE CARVALHO": "Beatriz EF",
+      "VITÓRIA YASMIN DA SILVA BERNARDO": "Augusto",
+      "CARLOS ALEXANDRE MALTA": "Luan",
+      "RYAN FELIPE BATISTA": "Luan"
+    };
 
-            // Ajustando o formato da data para dd/mm/yyyy
-            const [ano, mes, dia] = dataInput.split("-");
-            const dataFormatada = `${dia}/${mes}/${ano}`;
-            
-            let mensagem = `Registro de Ocorrência:\n\n` +
-                `Turma: 9°C\n` +
-                `Aluno: ${aluno}\n` +
-                `Data: ${dataFormatada}\n` +
-                `Horário: ${horario}\n` +
-                `Professor: ${professor}\n` +
-                `Descrição: ${descricao}\n` +
-                `Ação Tomada: ${acao}\n\n` +
-                `${confirmacao}`;
-            
-            const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
-            window.open(url, "_blank");
-        });
-    </script>
+    document.getElementById("aluno").addEventListener("change", function() {
+      const alunoSelecionado = this.value;
+      document.getElementById("tutor").value = relacaoTutoria[alunoSelecionado] || "";
+    });
+
+    document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const aluno = document.getElementById("aluno").value;
+      const tutor = document.getElementById("tutor").value;
+      const dataInput = document.getElementById("data").value;
+      const horario = document.getElementById("horario").value;
+      const professor = document.getElementById("professor").value;
+      const descricao = document.getElementById("descricao").value;
+      const acao = document.getElementById("acao").value;
+      const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
+      const telefone = "5519997984511";
+
+      const [ano, mes, dia] = dataInput.split("-");
+      const dataFormatada = `${dia}/${mes}/${ano}`;
+
+      let mensagem = `Registro de Ocorrência:\n\n` +
+          `Turma: 6°A\n` +
+          `Aluno: ${aluno}\n` +
+          `Tutor: ${tutor}\n` +
+          `Data: ${dataFormatada}\n` +
+          `Horário: ${horario}\n` +
+          `Professor: ${professor}\n` +
+          `Descrição: ${descricao}\n` +
+          `Ação Tomada: ${acao}\n\n` +
+          `${confirmacao}`;
+
+      const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
+      window.open(url, "_blank");
+    });
+  </script>
 </body>
 </html>
