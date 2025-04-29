@@ -191,8 +191,39 @@
     };
 
     document.getElementById("aluno").addEventListener("change", function() {
-      const aluno = this.value;
-      document.getElementById("tutor").value = relacaoTutoria[aluno] || '';
+      const alunoSelecionado = this.value;
+      document.getElementById("tutor").value = relacaoTutoria[alunoSelecionado] || "";
+    });
+
+    document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const aluno = document.getElementById("aluno").value;
+      const tutor = document.getElementById("tutor").value;
+      const dataInput = document.getElementById("data").value;
+      const horario = document.getElementById("horario").value;
+      const professor = document.getElementById("professor").value;
+      const descricao = document.getElementById("descricao").value;
+      const acao = document.getElementById("acao").value;
+      const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
+      const telefone = "5519997984511";
+
+      const [ano, mes, dia] = dataInput.split("-");
+      const dataFormatada = `${dia}/${mes}/${ano}`;
+
+      let mensagem = `Registro de Ocorrência:\n\n` +
+          `Turma: 6°A\n` +
+          `Aluno: ${aluno}\n` +
+          `Tutor: ${tutor}\n` +
+          `Data: ${dataFormatada}\n` +
+          `Horário: ${horario}\n` +
+          `Professor: ${professor}\n` +
+          `Descrição: ${descricao}\n` +
+          `Ação Tomada: ${acao}\n\n` +
+          `${confirmacao}`;
+
+      const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
+      window.open(url, "_blank");
     });
   </script>
 </body>
