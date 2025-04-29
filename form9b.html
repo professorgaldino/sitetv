@@ -1,105 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Ocorrência</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #f0f2f5;
-            padding: 20px;
-        }
-
-        .container {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 100%;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        label {
-            font-weight: bold;
-            margin-top: 12px;
-            display: block;
-            color: #555;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 14px;
-        }
-
-        textarea {
-            resize: none;
-        }
-
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-        }
-
-        .checkbox-container input {
-            width: auto;
-            margin-right: 8px;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            margin-top: 20px;
-            background: #007bff;
-            border: none;
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        @media (max-width: 450px) {
-            .container {
-                padding: 20px;
-                max-width: 100%;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Ocorrência</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f0f2f5;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 12px;
+      display: block;
+      color: #555;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    textarea {
+      resize: none;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .checkbox-container input {
+      width: auto;
+      margin-right: 8px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background: #007bff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    @media (max-width: 450px) {
+      .container {
+        padding: 20px;
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Registro de Ocorrência</h2>
-        <form id="ocorrenciaForm">
-            <label for="aluno">Selecione o Aluno:</label>
-            <select id="aluno" required>
-                <option value="" disabled selected>Escolha um aluno</option>
+  <div class="container">
+    <h2>Registro de Ocorrência</h2>
+    <form id="ocorrenciaForm">
+      <label for="aluno">Selecione o Aluno:</label>
+      <select id="aluno" required>
+      <option value="" disabled selected>Escolha um aluno</option>
                 <option value="ANA LÍVIA DAS NEVES VIANA DOS SANTOS">ANA LÍVIA DAS NEVES VIANA DOS SANTOS</option>
                 <option value="ANDRESSA FRAZÃO DOS SANTOS">ANDRESSA FRAZÃO DOS SANTOS</option>
                 <option value="ELOA VITORIA RODRIGUES DE SOUZA">ELOA VITORIA RODRIGUES DE SOUZA</option>
@@ -135,64 +124,104 @@
                 <option value="VITOR HUGO RIBEIRO DE LIMA">VITOR HUGO RIBEIRO DE LIMA</option>
                 <option value="VITOR MICHEL DA SILVA PIRES">VITOR MICHEL DA SILVA PIRES</option>
                 <option value="YASMIN FRAZAO SOARES">YASMIN FRAZAO SOARES</option>
+      </select>
 
+      <label for="tutor">Tutor do Aluno:</label>
+      <input type="text" id="tutor" readonly>
 
-            </select>
+      <label for="data">Data:</label>
+      <input type="date" id="data" required>
 
-            <label for="data">Data:</label>
-            <input type="date" id="data" required>
+      <label for="horario">Horário:</label>
+      <input type="time" id="horario" required>
 
-            <label for="horario">Horário:</label>
-            <input type="time" id="horario" required>
+      <label for="professor">Nome do Professor:</label>
+      <input type="text" id="professor" placeholder="Digite seu nome" required>
 
-            <label for="professor">Nome do Professor:</label>
-            <input type="text" id="professor" placeholder="Digite seu nome" required>
+      <label for="descricao">Descrição da Ocorrência:</label>
+      <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
 
-            <label for="descricao">Descrição da Ocorrência:</label>
-            <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
+      <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
+      <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
 
-            <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
-            <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
+      <div class="checkbox-container">
+        <input type="checkbox" id="confirmacao" required>
+        <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
+      </div>
 
-            <div class="checkbox-container">
-                <input type="checkbox" id="confirmacao" required>
-                <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
-            </div>
+      <button type="submit">Enviar Ocorrência</button>
+    </form>
+  </div>
 
-            <button type="submit">Enviar Ocorrência</button>
-        </form>
-    </div>
+  <script>
+    const relacaoTutoria = {
+      "ANA LÍVIA DAS NEVES VIANA DOS SANTOS": "Valdo",
+      "ANDRESSA FRAZÃO DOS SANTOS": "Emeline",
+      "BEATRIZ VITÓRIA DE ALMEIDA SANTOS": "Alequissandro",
+      "CARLOS GABRIEL DE OLIVEIRA BORSONE FILHO": "Luan",
+      "ESTHER BRAGA RODRIGUES COSTA": "Alequissandro",
+      "EYSHILLA GABRIELLY DO NASCIMENTO": "David",
+      "FABIANO DOS SANTOS ALVES DE SOUZA": "Elida",
+      "GABRIEL AQUINO DE MORAIS": "Alequissandro",
+      "GABRIEL SARAIVA ALVES": "Beatriz EF",
+      "GUILHERME LIMA GOMES DE SOUZA": "Alequissandro",
+      "HANNAH ÍADAH MEDEIROS JARDIM": "Alequissandro",
+      "HELLOA LORENA DOS SANTOS ROSA": "Alequissandro",
+      "ISABELA VITÓRIA DA LAVRA SOARES": "Alequissandro",
+      "ISABELLY DE JESUS TESTA": "Alequissandro",
+      "ISAQUE DA SILVA VILELA": "Valdo",
+      "IZABELLA KYARA PUTINI MENEZES": "Alequissandro",
+      "LUAN DAVID TAVARES DE OLIVEIRA": "Beatriz EF",
+      "LUIS MIGUEL MARCELO": "Daniel",
+      "LUIZ OTÁVIO ZIEMELS": "Valdo",
+      "LUIZ RAPHAEL FERREIRA DA SILVA": "Valdo",
+      "MATHEUS DA SILVA OLIVEIRA": "Emeline",
+      "PEDRO HENRIQUE ALVES BARBOSA": "Valdo",
+      "PETRIC LIBNY DE SOUZA DA SILVA": "Alequissandro",
+      "RAYSSA KAUANY DE ARAUJO": "Alequissandro",
+      "SORAIA YASMIM DOS SANTOS COSTA": "David",
+      "VICTOR HUGO DA SILVA PETEKECIUS": "TR",
+      "VINICIOS BERNARDO COSTA": "David",
+      "VITOR HUGO RIBEIRO DE LIMA": "Beatriz EF",
+      "VITOR MICHEL DA SILVA PIRES": "Beatriz EF",
+      "YASMIN FRAZAO SOARES": "Elida"
+    };
 
-    <script>
-        document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            
-            const aluno = document.getElementById("aluno").value;
-            const dataInput = document.getElementById("data").value;
-            const horario = document.getElementById("horario").value;
-            const professor = document.getElementById("professor").value;
-            const descricao = document.getElementById("descricao").value;
-            const acao = document.getElementById("acao").value;
-            const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
-            const telefone = "5519997984511";
+    document.getElementById("aluno").addEventListener("change", function() {
+      const alunoSelecionado = this.value;
+      document.getElementById("tutor").value = relacaoTutoria[alunoSelecionado] || "";
+    });
 
-            // Ajustando o formato da data para dd/mm/yyyy
-            const [ano, mes, dia] = dataInput.split("-");
-            const dataFormatada = `${dia}/${mes}/${ano}`;
-            
-            let mensagem = `Registro de Ocorrência:\n\n` +
-                `Turma: 9°B\n` +
-                `Aluno: ${aluno}\n` +
-                `Data: ${dataFormatada}\n` +
-                `Horário: ${horario}\n` +
-                `Professor: ${professor}\n` +
-                `Descrição: ${descricao}\n` +
-                `Ação Tomada: ${acao}\n\n` +
-                `${confirmacao}`;
-            
-            const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
-            window.open(url, "_blank");
-        });
-    </script>
+    document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const aluno = document.getElementById("aluno").value;
+      const tutor = document.getElementById("tutor").value;
+      const dataInput = document.getElementById("data").value;
+      const horario = document.getElementById("horario").value;
+      const professor = document.getElementById("professor").value;
+      const descricao = document.getElementById("descricao").value;
+      const acao = document.getElementById("acao").value;
+      const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
+      const telefone = "5519997984511";
+
+      const [ano, mes, dia] = dataInput.split("-");
+      const dataFormatada = `${dia}/${mes}/${ano}`;
+
+      let mensagem = `Registro de Ocorrência:\n\n` +
+          `Turma: 6°A\n` +
+          `Aluno: ${aluno}\n` +
+          `Tutor: ${tutor}\n` +
+          `Data: ${dataFormatada}\n` +
+          `Horário: ${horario}\n` +
+          `Professor: ${professor}\n` +
+          `Descrição: ${descricao}\n` +
+          `Ação Tomada: ${acao}\n\n` +
+          `${confirmacao}`;
+
+      const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
+      window.open(url, "_blank");
+    });
+  </script>
 </body>
 </html>
