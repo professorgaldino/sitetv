@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Escola Therezinha Villani</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E.E. Therezinha Villani</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -15,30 +15,38 @@
     font-family:'Montserrat',sans-serif;
 }
 
-body{
-    background:#fff;
-    color:#222;
+html,body{
+    width:100%;
+    overflow-x:hidden;
 }
+
+a{ text-decoration:none; }
 
 /* ===== HEADER ===== */
 header{
     border-bottom:1px solid #e5e5e5;
+    width:100%;
 }
 
 .header-wrapper{
-    max-width:1300px;
+    max-width:1400px;
     margin:auto;
-    padding:30px 20px;
+    padding:40px 20px;
     text-align:center;
 }
 
 .logo img{
-    max-height:90px;
+    max-height:120px;
     cursor:pointer;
+    transition:transform .3s;
+}
+
+.logo img:hover{
+    transform:scale(1.05);
 }
 
 nav{
-    margin-top:25px;
+    margin-top:30px;
 }
 
 nav ul{
@@ -50,10 +58,8 @@ nav ul{
 }
 
 nav a{
-    text-decoration:none;
     color:#222;
     font-weight:600;
-    font-size:14px;
     letter-spacing:1px;
 }
 
@@ -63,20 +69,19 @@ nav a:hover{
 
 /* ===== HERO ===== */
 .hero{
+    height:100vh;
     position:relative;
-    height:80vh;
     overflow:hidden;
 }
 
 .slider{
     display:flex;
     height:100%;
-    transition:transform 1s ease-in-out;
+    transition:transform 1s ease;
 }
 
 .slide{
     min-width:100%;
-    height:100%;
     background-size:cover;
     background-position:center;
 }
@@ -86,7 +91,6 @@ nav a:hover{
     position:absolute;
     inset:0;
     background:rgba(0,0,0,0.55);
-    z-index:1;
 }
 
 .hero-content{
@@ -94,21 +98,21 @@ nav a:hover{
     inset:0;
     z-index:2;
     display:flex;
-    align-items:center;
+    flex-direction:column;
     justify-content:center;
+    align-items:center;
     text-align:center;
-    padding:30px;
+    color:#fff;
+    padding:20px;
 }
 
 .hero-content h1{
-    color:#fff;
-    font-size:48px;
-    max-width:900px;
+    font-size:52px;
+    max-width:1000px;
 }
 
 .hero-content p{
-    color:#fff;
-    font-size:20px;
+    font-size:22px;
     margin-top:20px;
 }
 
@@ -117,60 +121,54 @@ nav a:hover{
     position:absolute;
     top:50%;
     transform:translateY(-50%);
-    z-index:3;
     background:rgba(0,0,0,0.4);
     color:#fff;
     border:none;
     width:55px;
     height:55px;
-    cursor:pointer;
-    font-size:26px;
     border-radius:50%;
+    cursor:pointer;
+    z-index:3;
+    font-size:26px;
 }
 
-.arrow.left{ left:30px; }
-.arrow.right{ right:30px; }
+.arrow.left{ left:20px; }
+.arrow.right{ right:20px; }
 
 /* ===== SEÇÕES ===== */
 section{
-    padding:90px 20px;
-    max-width:1300px;
-    margin:auto;
+    padding:100px 20px;
 }
 
 .section-title{
     text-align:center;
-    font-size:34px;
+    font-size:36px;
     margin-bottom:60px;
 }
 
 /* ===== PREMIAÇÕES ===== */
-.premiacoes{
-    background:#fff;
-}
-
 .premio{
+    max-width:1300px;
+    margin:auto;
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:60px;
     align-items:center;
 }
 
-.premio-img img{
+/* ===== INSTAGRAM ===== */
+.instagram-wide{
+    max-width:1400px;
+    margin:auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+.instagram-wide iframe{
     width:100%;
-    border-radius:16px;
-    box-shadow:0 20px 50px rgba(0,0,0,0.15);
-}
-
-.premio-text h3{
-    font-size:28px;
-    margin-bottom:20px;
-}
-
-.premio-text p{
-    font-size:18px;
-    line-height:1.7;
-    color:#555;
+    height:700px;
+    border:none;
 }
 
 /* ===== DOCENTES ===== */
@@ -179,6 +177,8 @@ section{
 }
 
 .docentes-grid{
+    max-width:1300px;
+    margin:auto;
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -186,8 +186,8 @@ section{
 }
 
 .docente-card{
-    width:180px;
-    height:180px;
+    width:200px;
+    height:200px;
     perspective:1000px;
 }
 
@@ -195,7 +195,7 @@ section{
     width:100%;
     height:100%;
     border-radius:50%;
-    transition:transform 0.8s ease;
+    transition:transform .8s;
     transform-style:preserve-3d;
     position:relative;
 }
@@ -220,66 +220,25 @@ section{
 .docente-front{
     background:#2259f2;
     color:#fff;
-    font-size:64px;
+    font-size:72px;
 }
 
 .docente-back{
     background:#fff;
-    color:#222;
     transform:rotateY(180deg);
-    box-shadow:0 15px 40px rgba(0,0,0,0.15);
     flex-direction:column;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
-.docente-back h4{
-    font-size:16px;
-    font-weight:700;
-    margin-bottom:8px;
-}
-
-.docente-back span{
-    font-size:14px;
-    color:#555;
-}
-
-/* ===== INSTAGRAM ===== */
-.instagram-section{
-    background:#f7f7f7;
-}
-
-.instagram-wide{
-    max-width:1200px;
-    margin:0 auto;
-    border-radius:20px;
-    overflow:hidden;
-    background:#fff;
-    box-shadow:0 15px 40px rgba(0,0,0,0.15);
-}
-
-.instagram-wide iframe{
-    width:100%;
-    height:680px;
-    border:none;
-}
-
-/* ===== FOOTER / CONTATO ===== */
+/* ===== FOOTER ===== */
 footer{
     background:#111;
     color:#bbb;
-    padding:60px 20px;
+    padding:80px 20px;
     text-align:center;
 }
 
-footer h3{
-    color:#fff;
-    margin-bottom:20px;
-}
-
-footer p{
-    margin-bottom:10px;
-}
-
-/* RESPONSIVO */
+/* ===== RESPONSIVO ===== */
 @media(max-width:900px){
     .premio{
         grid-template-columns:1fr;
@@ -288,12 +247,10 @@ footer p{
 }
 
 @media(max-width:768px){
-    .hero-content h1{ font-size:32px; }
-    .hero-content p{ font-size:16px; }
-
-    .instagram-wide iframe{
-        height:500px;
-    }
+    .hero-content h1{ font-size:34px; }
+    .hero-content p{ font-size:18px; }
+    .instagram-wide iframe{ height:500px; }
+    .logo img{ max-height:95px; }
 }
 </style>
 </head>
@@ -304,13 +261,12 @@ footer p{
     <div class="header-wrapper">
         <div class="logo">
             <a href="https://professorgaldino.github.io/tutor/">
-                <img src="logoescola.png" alt="Escola Therezinha Villani">
+                <img src="logo.png" alt="Logo Escola">
             </a>
         </div>
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="#docentes">Docentes</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -321,97 +277,93 @@ footer p{
 
 <section class="hero">
     <div class="slider" id="slider">
-        <div class="slide" style="background-image:url('https://br.freepik.com/fotos-vetores-gratis/teste-online');"></div>
-        <div class="slide" style="background-image:url('https://br.freepik.com/fotos-vetores-gratis/teste-online');"></div>
-        <div class="slide" style="background-image:url('https://br.freepik.com/fotos-vetores-gratis/teste-online');"></div>
-        <div class="slide" style="background-image:url('https://br.freepik.com/fotos-vetores-gratis/teste-online');"></div>
+        <div class="slide" style="background-image:url('img1.jpg')"></div>
+        <div class="slide" style="background-image:url('img2.jpg')"></div>
+        <div class="slide" style="background-image:url('img3.jpg')"></div>
+        <div class="slide" style="background-image:url('img4.jpg')"></div>
     </div>
 
-    <button class="arrow left" onclick="prevSlide()">&#10094;</button>
-    <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+    <button class="arrow left" onclick="prevSlide()">❮</button>
+    <button class="arrow right" onclick="nextSlide()">❯</button>
 
     <div class="hero-content">
-        <div>
-            <h1>Formando cidadãos para o futuro</h1>
-            <p>Educação de qualidade, compromisso social e inovação pedagógica</p>
-        </div>
+        <h1>Formando cidadãos para o futuro</h1>
+        <p>Educação de qualidade, compromisso social e inovação pedagógica</p>
     </div>
 </section>
 
-<section class="premiacoes">
-    <h2 class="section-title">Nossas Premiações</h2>
-
+<section>
+    <h2 class="section-title">Premiações</h2>
     <div class="premio">
-        <div class="premio-img">
-            <img src="https://via.placeholder.com/600x400" alt="Premiação">
-        </div>
-
-        <div class="premio-text">
-            <h3>Escola Destaque em Educação</h3>
-            <p>Reconhecimento concedido pelo excelente desempenho acadêmico e inovação pedagógica.</p>
+        <img src="premio.jpg" alt="Premiação" style="width:100%;border-radius:20px">
+        <div>
+            <h3>Prêmio Educação de Excelência</h3>
+            <p>Reconhecimento pelo compromisso com ensino de qualidade.</p>
         </div>
     </div>
 </section>
 
-<section class="docentes" id="docentes">
-    <h2 class="section-title">Nosso Corpo Docente</h2>
-
-    <div class="docentes-grid">
-        <div class="docente-card">
-            <div class="docente-inner">
-                <div class="docente-front">👩‍🏫</div>
-                <div class="docente-back">
-                    <h4>Maria Silva</h4>
-                    <span>Matemática</span>
-                </div>
-            </div>
-        </div>
-        <div class="docente-card">
-            <div class="docente-inner">
-                <div class="docente-front">👩‍🏫</div>
-                <div class="docente-back">
-                    <h4>Maria Silva</h4>
-                    <span>Matemática</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="instagram-section">
-    <h2 class="section-title">Acompanhe nosso Instagram</h2>
-
+<section>
+    <h2 class="section-title">Instagram</h2>
     <div class="instagram-wide">
         <iframe src="https://www.instagram.com/eetherezinha/embed"></iframe>
     </div>
 </section>
 
+<section class="docentes" id="docentes">
+    <h2 class="section-title">Corpo Docente</h2>
+    <div class="docentes-grid">
+
+        <div class="docente-card">
+            <div class="docente-inner">
+                <div class="docente-front">👩‍🏫</div>
+                <div class="docente-back">
+                    <h4>Maria Silva</h4>
+                    <span>Matemática</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="docente-card">
+            <div class="docente-inner">
+                <div class="docente-front">👨‍🏫</div>
+                <div class="docente-back">
+                    <h4>João Santos</h4>
+                    <span>Português</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <footer id="contato">
     <h3>Contato</h3>
-    <p>📞 (19) 3818-3424</p>
-    <p>📍 Rua Doutor Jorge Franca Camargo, 351, Jardim Fantinato, Mogi Guaçu - SP.  CEP é 13848-303</p>
-    <p>© 2026 Escola Therezinha Villani</p>
+    <p>📞 (00) 0000-0000</p>
+    <p>📍 Endereço da escola</p>
 </footer>
 
 <script>
-const slider = document.getElementById("slider");
-const slides = slider.children.length;
 let index = 0;
+const slider = document.getElementById("slider");
+const total = slider.children.length;
 
-function updateSlide(){
+function showSlide(){
     slider.style.transform = `translateX(-${index * 100}%)`;
 }
+
 function nextSlide(){
-    index = (index + 1) % slides;
-    updateSlide();
+    index = (index + 1) % total;
+    showSlide();
 }
+
 function prevSlide(){
-    index = (index - 1 + slides) % slides;
-    updateSlide();
+    index = (index - 1 + total) % total;
+    showSlide();
 }
-setInterval(nextSlide, 6000);
+
+setInterval(nextSlide, 5000);
 </script>
 
 </body>
 </html>
-
