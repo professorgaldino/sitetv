@@ -1,212 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Ocorrência</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #f0f2f5;
-            padding: 20px;
-        }
-
-        .container {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 100%;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        label {
-            font-weight: bold;
-            margin-top: 12px;
-            display: block;
-            color: #555;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 14px;
-        }
-
-        textarea {
-            resize: none;
-        }
-
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-        }
-
-        .checkbox-container input {
-            width: auto;
-            margin-right: 8px;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            margin-top: 20px;
-            background: #007bff;
-            border: none;
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-
-        @media (max-width: 450px) {
-            .container {
-                padding: 20px;
-                max-width: 100%;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Ocorrência</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f0f2f5;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 12px;
+      display: block;
+      color: #555;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    textarea {
+      resize: none;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .checkbox-container input {
+      width: auto;
+      margin-right: 8px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background: #007bff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    @media (max-width: 450px) {
+      .container {
+        padding: 20px;
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Registro de Ocorrência</h2>
-        <form id="ocorrenciaForm">
-            <label for="aluno">Selecione o Aluno:</label>
-            <select id="aluno" required>
-                <option value="" disabled selected>Escolha um aluno</option>
-                <option value="ARIANA MAYARA COLARES GOMES">ARIANA MAYARA COLARES GOMES</option>
-                <option value="BEATRIZ ALVES VICENTE">BEATRIZ ALVES VICENTE</option>
-                <option value="BRUNO HENRIQUE MARIANO DERACO">BRUNO HENRIQUE MARIANO DERACO</option>
-                <option value="GABRIEL HENRIQUE GARCIA TEODORO">GABRIEL HENRIQUE GARCIA TEODORO</option>
-                <option value="GABRIEL REIS MARTINS">GABRIEL REIS MARTINS</option>
-                <option value="JHULLIA ANTONYELLY ANDRADE JESUS">JHULLIA ANTONYELLY ANDRADE JESUS</option>
-                <option value="JUAN HENRIQUE DE CARVALHO">JUAN HENRIQUE DE CARVALHO</option>
-                <option value="LARISSA LOPES GOMES">LARISSA LOPES GOMES</option>
-                <option value="LAURA BUZATO OLIVEIRA">LAURA BUZATO OLIVEIRA</option>
-                <option value="LUCAS DONISETI LASARINO">LUCAS DONISETI LASARINO</option>
-                <option value="MARCOS WILLIAM FERREIRA ROBERTO">MARCOS WILLIAM FERREIRA ROBERTO</option>
-                <option value="TALISON FERREIRA DE SOUZA">TALISON FERREIRA DE SOUZA</option>
-                <option value="CARLOS EDUARDO BUENO RAMOS">CARLOS EDUARDO BUENO RAMOS</option>
-                <option value="ANA BEATRIZ SILVEIRA DE LIMA">ANA BEATRIZ SILVEIRA DE LIMA</option>
-                <option value="EDUARDO ROSA">EDUARDO ROSA</option>
-                <option value="KEMILLY VITÓRIA CARDOSO">KEMILLY VITÓRIA CARDOSO</option>
-                <option value="ADVAN GABRIEL SEBASTIÃO FAQUINETI">ADVAN GABRIEL SEBASTIÃO FAQUINETI</option>
-                <option value="IAGO DOS SANTOS MACHADO">IAGO DOS SANTOS MACHADO</option>
-                <option value="WÉSLEY LEONARDO DE OLIVEIRA NEVES">WÉSLEY LEONARDO DE OLIVEIRA NEVES</option>
-                <option value="WELLINGTON GUSTAVO DOS SANTOS">WELLINGTON GUSTAVO DOS SANTOS</option>
-                <option value="WÁLISSON ARAUJO JULIARI">WÁLISSON ARAUJO JULIARI</option>
-                <option value="DANIEL DE SOUZA LIMA">DANIEL DE SOUZA LIMA</option>
-                <option value="GABRIELA DE FATIMA SILVA GOMES">GABRIELA DE FATIMA SILVA GOMES</option>
-                <option value="MATHEUS PHELIPE LAIFER">MATHEUS PHELIPE LAIFER</option>
-                <option value="MIGUEL GIMENEZ PEREIRA">MIGUEL GIMENEZ PEREIRA</option>
-                <option value="BRENDA ELOAH DA MATA">BRENDA ELOAH DA MATA</option>
-                <option value="NATALIA LUIZA MALTA">NATALIA LUIZA MALTA</option>
-                <option value="ANA BEATRIZ RIBEIRO SILVA">ANA BEATRIZ RIBEIRO SILVA</option>
-                <option value="LUCAS PEDRO CARDOSO">LUCAS PEDRO CARDOSO</option>
-                <option value="DAVI FERNANDO FAIZ DA SILVA">DAVI FERNANDO FAIZ DA SILVA</option>
-                <option value="HENRIQUE MARTINS">HENRIQUE MARTINS</option>
-                <option value="KAIO GABRIEL RIBEIRO DE OLIVEIRA">KAIO GABRIEL RIBEIRO DE OLIVEIRA</option>
-                <option value="DIMAS GABRIEL DE OLIVEIRA">DIMAS GABRIEL DE OLIVEIRA</option>
-                <option value="NICOLLY GABRIELLY MARIANO PALOMO">NICOLLY GABRIELLY MARIANO PALOMO</option>
-                <option value="MIGUEL HENRIQUE TEODORO DA SILVA">MIGUEL HENRIQUE TEODORO DA SILVA</option>
-                <option value="ANA LÍVIA DA RÓSA FARIAS">ANA LÍVIA DA RÓSA FARIAS</option>
-                <option value="JOAO VICTOR GUIMARAES DE SOUZA">JOAO VICTOR GUIMARAES DE SOUZA</option>
-                <option value="LARA REIS DE OLIVEIRA">LARA REIS DE OLIVEIRA</option>
-                <option value="DALILA ALESSANDRA DE LIMA ALVES">DALILA ALESSANDRA DE LIMA ALVES</option>
-                <option value="KETERLYN CAROLAINE DA SILVA MIRANDA">KETERLYN CAROLAINE DA SILVA MIRANDA</option>
-                <option value="EMILY MACENA RAULINO">EMILY MACENA RAULINO</option>
-                <option value="EDUARDO SIGNORETTI DOS SANTOS">EDUARDO SIGNORETTI DOS SANTOS</option>
-                <option value="DÉBORA LUANA DA SILVA">DÉBORA LUANA DA SILVA</option>
-                <option value="JOSE HENRIQUE SARAIVA RABELO">JOSE HENRIQUE SARAIVA RABELO</option>
-                <option value="CHRISTYAN MIGUEL MUNIZ DE OLIVEIRA">CHRISTYAN MIGUEL MUNIZ DE OLIVEIRA</option>
-                <option value="GIOVANI LUCAS NADALINI">GIOVANI LUCAS NADALINI</option>
-                <option value="GUSTAVO HENRIQUE LOPES DE ANDRADE">GUSTAVO HENRIQUE LOPES DE ANDRADE</option>
-                <option value="ÉLIKA NAARAH DA SILVA MEDEIROS">ÉLIKA NAARAH DA SILVA MEDEIROS</option>
+  <div class="container">
+    <h2>Registro de Ocorrência</h2>
+    <form id="ocorrenciaForm">
+      <label for="aluno">Selecione o Aluno:</label>
+      <select id="aluno" required>
+        <option value="" disabled selected>Escolha um aluno</option>
+        <option value="ANDRÉ GIMENEZ TONOBOHON">ANDRÉ GIMENEZ TONOBOHON</option>
+        <option value="BEATRIZ CESAR MUNIZ">BEATRIZ CESAR MUNIZ</option>
+        <option value="DAVID MATHEUS CAMARGO DE SOUZA">DAVID MATHEUS CAMARGO DE SOUZA</option>
+        <option value="EDUARDO GABRIEL DE ARAUJO MARTINS">EDUARDO GABRIEL DE ARAUJO MARTINS</option>
+        <option value="ELOÁ VITÓRIA RODRIGUES DE SOUZA">ELOÁ VITÓRIA RODRIGUES DE SOUZA</option>
+        <option value="FERNANDO CÉSAR ROSSI DE SOUZA">FERNANDO CÉSAR ROSSI DE SOUZA</option>
+        <option value="GABRIEL FERNANDES LIMA DA SILVA">GABRIEL FERNANDES LIMA DA SILVA</option>
+        <option value="GABRIELLA MICHAELLA PETEKECIUS">GABRIELLA MICHAELLA PETEKECIUS</option>
+        <option value="GIOVANNA REIS DO PRADO">GIOVANNA REIS DO PRADO</option>
+        <option value="JAMILY FRANCATO RIBEIRO">JAMILY FRANCATO RIBEIRO</option>
+        <option value="JOÃO VÍTOR DA SILVA REIS">JOÃO VÍTOR DA SILVA REIS</option>
+        <option value="JÚLIA LIMA GOMES DE SOUZA">JÚLIA LIMA GOMES DE SOUZA</option>
+        <option value="LÍVIA MARIANO">LÍVIA MARIANO</option>
+        <option value="LUCAS DANIEL DUARTE PEDROZA">LUCAS DANIEL DUARTE PEDROZA</option>
+        <option value="LUCAS VITORINO SALVALAIO">LUCAS VITORINO SALVALAIO</option>
+        <option value="LUIZ HENRIQUE MARCELINO">LUIZ HENRIQUE MARCELINO</option>
+        <option value="MIGUEL FELIPE CUSTÓDIO CASTRO">MIGUEL FELIPE CUSTÓDIO CASTRO</option>
+        <option value="MIGUEL HAILTON DE SOUZA">MIGUEL HAILTON DE SOUZA</option>
+        <option value="MONIQUE GRAZIELLY OLIVEIRA ROSSI">MONIQUE GRAZIELLY OLIVEIRA ROSSI</option>
+        <option value="PAULO ESTEVÃO DE SOUSA">PAULO ESTEVÃO DE SOUSA</option>
+        <option value="PEDRO HENRIQUE RIBEIRO CIPRIANO">PEDRO HENRIQUE RIBEIRO CIPRIANO</option>
+        <option value="RAYSSA VITÓRIA TEODORO">RAYSSA VITÓRIA TEODORO</option>
+        <option value="RENAN ELOI DE BRITO">RENAN ELOI DE BRITO</option>
+        <option value="RENATO OLIVEIRA">RENATO OLIVEIRA</option>
+        <option value="RYAN AUGUSTO LOPES PINHEIRO">RYAN AUGUSTO LOPES PINHEIRO</option>
+        <option value="VICTOR HENRIQUE DA SILVA DE CARVALHO">VICTOR HENRIQUE DA SILVA DE CARVALHO</option>
+        <option value="VITÓRIA YASMIN DA SILVA BERNARDO">VITÓRIA YASMIN DA SILVA BERNARDO</option>
+        <option value="TALISON FERREIRA DE SOUZA">TALISON FERREIRA DE SOUZA</option>
+        <option value="EMILY LUARA GRASSI DE MORAIS DOS SANTOS">EMILY LUARA GRASSI DE MORAIS DOS SANTOS</option>
+        <option value="BEATRIZ RATIQUERI MARTINS">BEATRIZ RATIQUERI MARTINS</option>
+        <option value="MANUELLA PEREIRA DA SILVA">MANUELLA PEREIRA DA SILVA</option>
+        <option value="PIETRA PARUSSULLO ROCHA">PIETRA PARUSSULLO ROCHA</option>
+      </select>
 
+      <label for="tutor">Tutor do Aluno:</label>
+      <input type="text" id="tutor" readonly>
 
+      <label for="data">Data:</label>
+      <input type="date" id="data" required>
 
-            </select>
+      <label for="horario">Horário:</label>
+      <input type="time" id="horario" required>
 
-            <label for="data">Data:</label>
-            <input type="date" id="data" required>
+      <label for="professor">Nome do Professor:</label>
+      <input type="text" id="professor" placeholder="Digite seu nome" required>
 
-            <label for="horario">Horário:</label>
-            <input type="time" id="horario" required>
+      <label for="descricao">Descrição da Ocorrência:</label>
+      <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
 
-            <label for="professor">Nome do Professor:</label>
-            <input type="text" id="professor" placeholder="Digite seu nome" required>
+      <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
+      <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
 
-            <label for="descricao">Descrição da Ocorrência:</label>
-            <textarea id="descricao" rows="3" placeholder="Descreva a ocorrência..." required></textarea>
+      <div class="checkbox-container">
+        <input type="checkbox" id="confirmacao" required>
+        <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
+      </div>
 
-            <label for="acao">Já foi tomada alguma ação a respeito? Qual?</label>
-            <textarea id="acao" rows="2" placeholder="Informe a ação tomada, se houver." required></textarea>
+      <button type="submit">Enviar Ocorrência</button>
+    </form>
+  </div>
 
-            <div class="checkbox-container">
-                <input type="checkbox" id="confirmacao" required>
-                <label for="confirmacao">Atesto a veracidade das informações preenchidas.</label>
-            </div>
+  <script>
+    const relacaoTutoria = {
+      "ANDRÉ GIMENEZ TONOBOHON": "Sem TUTOR",
+      "BEATRIZ CESAR MUNIZ": "Sem TUTOR",
+      "DAVID MATHEUS CAMARGO DE SOUZA": "Sem TUTOR",
+      "EDUARDO GABRIEL DE ARAUJO MARTINS": "Sem TUTOR",
+      "ELOÁ VITÓRIA RODRIGUES DE SOUZA": "Sem TUTOR",
+      "FERNANDO CÉSAR ROSSI DE SOUZA": "Sem TUTOR",
+      "GABRIEL FERNANDES LIMA DA SILVA": "Sem TUTOR",
+      "GABRIELLA MICHAELLA PETEKECIUS": "Sem TUTOR",
+      "GIOVANNA REIS DO PRADO": "Sem TUTOR",
+      "JAMILY FRANCATO RIBEIRO": "Sem TUTOR",
+      "JOÃO VÍTOR DA SILVA REIS": "Sem TUTOR",
+      "JÚLIA LIMA GOMES DE SOUZA": "Sem TUTOR",
+      "LÍVIA MARIANO": "Sem TUTOR",
+      "LUCAS DANIEL DUARTE PEDROZA": "Sem TUTOR",
+      "LUCAS VITORINO SALVALAIO": "Sem TUTOR",
+      "LUIZ HENRIQUE MARCELINO": "Sem TUTOR",
+      "MIGUEL FELIPE CUSTÓDIO CASTRO": "Sem TUTOR",
+      "MIGUEL HAILTON DE SOUZA": "Sem TUTOR",
+      "MONIQUE GRAZIELLY OLIVEIRA ROSSI": "Sem TUTOR",
+      "PAULO ESTEVÃO DE SOUSA": "Sem TUTOR",
+      "PEDRO HENRIQUE RIBEIRO CIPRIANO": "Sem TUTOR",
+      "RAYSSA VITÓRIA TEODORO": "Sem TUTOR",
+      "RENAN ELOI DE BRITO": "Sem TUTOR",
+      "RENATO OLIVEIRA": "Sem TUTOR",
+      "RYAN AUGUSTO LOPES PINHEIRO": "Sem TUTOR",
+      "VICTOR HENRIQUE DA SILVA DE CARVALHO": "Sem TUTOR",
+      "VITÓRIA YASMIN DA SILVA BERNARDO": "Sem TUTOR",
+      "TALISON FERREIRA DE SOUZA": "Sem TUTOR",
+      "EMILY LUARA GRASSI DE MORAIS DOS SANTOS": "Sem TUTOR",
+      "BEATRIZ RATIQUERI MARTINS": "Sem TUTOR",
+      "MANUELLA PEREIRA DA SILVA": "Sem TUTOR",
+      "PIETRA PARUSSULLO ROCHA": "Sem TUTOR"
+    };
 
-            <button type="submit">Enviar Ocorrência</button>
-        </form>
-    </div>
+    document.getElementById("aluno").addEventListener("change", function() {
+      const alunoSelecionado = this.value;
+      document.getElementById("tutor").value = relacaoTutoria[alunoSelecionado] || "";
+    });
 
-    <script>
-        document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            
-            const aluno = document.getElementById("aluno").value;
-            const dataInput = document.getElementById("data").value;
-            const horario = document.getElementById("horario").value;
-            const professor = document.getElementById("professor").value;
-            const descricao = document.getElementById("descricao").value;
-            const acao = document.getElementById("acao").value;
-            const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
-            const telefone = "5519990020650";
+    document.getElementById("ocorrenciaForm").addEventListener("submit", function(event) {
+      event.preventDefault();
 
-            // Ajustando o formato da data para dd/mm/yyyy
-            const [ano, mes, dia] = dataInput.split("-");
-            const dataFormatada = `${dia}/${mes}/${ano}`;
-            
-            let mensagem = `Registro de Ocorrência:\n\n` +
-                `Turma: 1°C\n` +
-                `Aluno: ${aluno}\n` +
-                `Data: ${dataFormatada}\n` +
-                `Horário: ${horario}\n` +
-                `Professor: ${professor}\n` +
-                `Descrição: ${descricao}\n` +
-                `Ação Tomada: ${acao}\n\n` +
-                `${confirmacao}`;
-            
-            const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
-            window.open(url, "_blank");
-        });
-    </script>
+      const aluno = document.getElementById("aluno").value;
+      const tutor = document.getElementById("tutor").value;
+      const dataInput = document.getElementById("data").value;
+      const horario = document.getElementById("horario").value;
+      const professor = document.getElementById("professor").value;
+      const descricao = document.getElementById("descricao").value;
+      const acao = document.getElementById("acao").value;
+      const confirmacao = document.getElementById("confirmacao").checked ? "Sim, atesto a veracidade das informações preenchidas." : "";
+      const telefone = "5519990020650";
+
+      const [ano, mes, dia] = dataInput.split("-");
+      const dataFormatada = `${dia}/${mes}/${ano}`;
+
+      let mensagem = `Registro de Ocorrência:\n\n` +
+          `Turma: 1°C\n` +
+          `Aluno: ${aluno}\n` +
+          `Tutor: ${tutor}\n` +
+          `Data: ${dataFormatada}\n` +
+          `Horário: ${horario}\n` +
+          `Professor: ${professor}\n` +
+          `Descrição: ${descricao}\n` +
+          `Ação Tomada: ${acao}\n\n` +
+          `${confirmacao}`;
+
+      const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(mensagem)}`;
+      window.open(url, "_blank");
+    });
+  </script>
 </body>
 </html>
