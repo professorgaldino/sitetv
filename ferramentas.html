@@ -1,213 +1,597 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ferramentas Internas</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Central de ferramentas internas da E.E. Therezinha Villani.">
+
+  <title>Ferramentas Internas | E.E. Therezinha Villani</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <style>
-    * { box-sizing: border-box; }
+    :root {
+      --azul-marinho: #061b35;
+      --azul-escuro: #082b53;
+      --azul: #0c4f8b;
+      --azul-claro: #2183c4;
+      --dourado: #d5a93f;
+      --dourado-claro: #f4d981;
+      --fundo: #f3f7fb;
+      --branco: #ffffff;
+      --texto: #26374c;
+      --texto-claro: #64748b;
+      --borda: rgba(12, 79, 139, 0.13);
+      --sombra: 0 22px 60px rgba(6, 27, 53, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
       min-height: 100vh;
-      padding: 40px 20px;
-      color: #333;
+      margin: 0;
+      color: var(--texto);
+      background: var(--fundo);
+      font-family: "DM Sans", sans-serif;
     }
 
-    .container {
-      background-color: #fff;
-      padding: 30px 20px;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    /* Barra superior */
+
+    .topbar {
+      color: rgba(255, 255, 255, 0.84);
+      background: var(--azul-marinho);
+      font-size: 0.78rem;
+    }
+
+    .topbar-inner,
+    .header-inner,
+    .main-inner {
+      width: min(1160px, calc(100% - 40px));
+      margin: auto;
+    }
+
+    .topbar-inner {
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .award {
+      color: var(--dourado-claro);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* Cabeçalho */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--borda);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 10px 35px rgba(6, 27, 53, 0.07);
+      backdrop-filter: blur(16px);
+    }
+
+    .header-inner {
+      min-height: 102px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+    }
+
+    .brand-logo {
+      width: 76px;
+      height: 76px;
+      padding: 5px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--borda);
+      border-radius: 19px;
+      background: var(--branco);
+      box-shadow: 0 10px 28px rgba(6, 27, 53, 0.11);
+    }
+
+    .brand-logo img {
       width: 100%;
-      max-width: 500px;
+      height: 100%;
+      object-fit: contain;
     }
 
-    .logo {
-      width: 120px;
-      display: block;
-      margin: 0 auto 20px auto;
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
     }
 
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 24px;
-      color: #2259f2;
+    .brand-text strong {
+      color: var(--azul-marinho);
+      font-family: "Playfair Display", serif;
+      font-size: 1.32rem;
+      font-weight: 700;
     }
 
-    input[type="text"] {
+    .brand-text small {
+      margin-top: 8px;
+      color: var(--azul);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .back-link {
+      min-height: 46px;
+      padding: 0 19px;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--branco);
+      border-radius: 13px;
+      background: var(--azul);
+      box-shadow: 0 10px 24px rgba(12, 79, 139, 0.2);
+      font-weight: 700;
+      transition: 0.22s ease;
+    }
+
+    .back-link:hover {
+      background: var(--azul-claro);
+      transform: translateY(-2px);
+    }
+
+    /* Banner */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      color: var(--branco);
+      background:
+        linear-gradient(
+          125deg,
+          var(--azul-marinho) 0%,
+          var(--azul-escuro) 58%,
+          var(--azul) 100%
+        );
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(244, 217, 129, 0.18);
+      border-radius: 50%;
+    }
+
+    .hero::before {
+      top: -230px;
+      right: -60px;
+      width: 390px;
+      height: 390px;
+    }
+
+    .hero::after {
+      bottom: -145px;
+      left: 8%;
+      width: 210px;
+      height: 210px;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1160px, calc(100% - 40px));
+      margin: auto;
+      padding: 68px 0 82px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--dourado-claro);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--dourado);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 16px 0 12px;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(2.4rem, 5vw, 4.35rem);
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+    }
+
+    .hero p {
+      max-width: 670px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 1.06rem;
+    }
+
+    /* Pesquisa */
+
+    .search-wrap {
+      position: relative;
+      max-width: 700px;
+      margin-top: 32px;
+    }
+
+    .search-wrap svg {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      width: 22px;
+      color: var(--azul);
+      transform: translateY(-50%);
+    }
+
+    #search {
       width: 100%;
-      padding: 12px;
-      margin-bottom: 20px;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-      font-size: 16px;
+      height: 60px;
+      padding: 0 53px;
+      color: var(--azul-marinho);
+      border: 2px solid transparent;
+      border-radius: 17px;
+      outline: none;
+      background: var(--branco);
+      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.18);
+      transition: 0.2s ease;
+    }
+
+    #search:focus {
+      border-color: var(--dourado-claro);
+      box-shadow:
+        0 18px 48px rgba(0, 0, 0, 0.24),
+        0 0 0 4px rgba(244, 217, 129, 0.15);
+    }
+
+    #clearSearch {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      display: none;
+      place-items: center;
+      color: var(--texto-claro);
+      border: 0;
+      border-radius: 11px;
+      background: transparent;
+      cursor: pointer;
+      font-size: 1.3rem;
+      transform: translateY(-50%);
+    }
+
+    #clearSearch:hover {
+      color: var(--azul-marinho);
+      background: var(--fundo);
+    }
+
+    /* Ferramentas */
+
+    main {
+      padding: 64px 0 80px;
+    }
+
+    .section-top {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .section-top h2 {
+      margin: 0;
+      color: var(--azul-marinho);
+      font-family: "Playfair Display", serif;
+      font-size: 2rem;
+    }
+
+    .section-top p {
+      margin: 5px 0 0;
+      color: var(--texto-claro);
+    }
+
+    #resultCount {
+      flex: 0 0 auto;
+      padding: 8px 13px;
+      color: var(--azul);
+      border-radius: 999px;
+      background: rgba(33, 131, 196, 0.1);
+      font-size: 0.8rem;
+      font-weight: 700;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
     }
 
-    .btn {
-      background-color: #2259f2;
-      color: white;
-      padding: 14px 20px;
-      border: none;
-      border-radius: 8px;
-      font-weight: 600;
-      text-decoration: none;
-      text-align: center;
-      transition: background-color 0.3s ease, transform 0.2s ease;
+    .tool-card {
+      position: relative;
+      min-height: 175px;
+      padding: 23px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: var(--texto);
+      border: 1px solid var(--borda);
+      border-radius: 21px;
+      background: var(--branco);
+      box-shadow: 0 8px 30px rgba(6, 27, 53, 0.06);
       cursor: pointer;
+      transition: 0.24s ease;
     }
 
-    .btn:hover {
-      background-color: #ed2c0d;
-      transform: scale(1.02);
+    button.tool-card {
+      width: 100%;
+      text-align: left;
     }
 
-    .btn-top {
-      background-color: #0f172a;
+    .tool-card:hover,
+    .tool-card:focus-visible {
+      border-color: rgba(213, 169, 63, 0.55);
+      outline: none;
+      box-shadow: var(--sombra);
+      transform: translateY(-5px);
     }
 
-    .btn-top:hover {
-      background-color: #ed2c0d;
+    .tool-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      color: var(--azul);
+      border-radius: 15px;
+      background: rgba(33, 131, 196, 0.1);
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .tool-card h3 {
+      margin: 16px 0 5px;
+      color: var(--azul-marinho);
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    .tool-card p {
+      margin: 0;
+      color: var(--texto-claro);
+      font-size: 0.79rem;
+    }
+
+    .tool-arrow {
+      position: absolute;
+      top: 25px;
+      right: 20px;
+      color: var(--azul-claro);
+      font-size: 1.15rem;
+      transition: 0.2s ease;
+    }
+
+    .tool-card:hover .tool-arrow {
+      color: var(--dourado);
+      transform: translateX(3px);
+    }
+
+    .tool-card.featured {
+      color: var(--branco);
+      border-color: transparent;
+      background:
+        linear-gradient(
+          145deg,
+          var(--azul-escuro),
+          var(--azul)
+        );
+    }
+
+    .tool-card.featured h3 {
+      color: var(--branco);
+    }
+
+    .tool-card.featured p {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .tool-card.featured .tool-icon {
+      color: var(--azul-marinho);
+      background: var(--dourado-claro);
+    }
+
+    .tool-card.featured .tool-arrow {
+      color: var(--dourado-claro);
+    }
+
+    .empty {
+      display: none;
+      padding: 48px 20px;
+      color: var(--texto-claro);
+      border: 1px dashed rgba(12, 79, 139, 0.25);
+      border-radius: 22px;
+      text-align: center;
+      background: var(--branco);
     }
 
     /* Modal */
+
     .modal {
-      display: none;
       position: fixed;
-      z-index: 10;
-      left: 0; top: 0;
-      width: 100%; height: 100%;
-      background-color: rgba(0,0,0,0.5);
-      justify-content: center;
-      align-items: center;
+      inset: 0;
+      z-index: 100;
+      padding: 20px;
+      display: none;
+      place-items: center;
+      background: rgba(3, 19, 38, 0.72);
+      backdrop-filter: blur(8px);
     }
 
-    .modal-content {
-      background-color: white;
-      padding: 30px;
-      border-radius: 12px;
-      text-align: center;
-      max-width: 400px;
-      width: 90%;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    .modal.open {
+      display: grid;
     }
 
-    .modal h3 {
-      margin-bottom: 20px;
+    .modal-card {
+      position: relative;
+      width: min(460px, 100%);
+      padding: 32px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 24px;
+      background: var(--branco);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.32);
     }
 
-    .modal-buttons a,
-    .modal-buttons button {
-      display: block;
-      margin: 10px auto;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 8px;
-      background-color: #2259f2;
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      width: 100%;
-      cursor: pointer;
+    .modal-card h2 {
+      margin: 15px 0 6px;
+      color: var(--azul-marinho);
+      font-family: "Playfair Display", serif;
+      font-size: 1.75rem;
     }
 
-    .modal-buttons a:hover,
-    .modal-buttons button:hover {
-      background-color: #ed2c0d;
+    .modal-card > p {
+      margin: 0 0 24px;
+      color: var(--texto-claro);
     }
 
     .close {
       position: absolute;
-      top: 20px;
-      right: 30px;
-      font-size: 28px;
-      color: white;
+      top: 18px;
+      right: 18px;
+      width: 40px;
+      height: 40px;
+      color: var(--azul-marinho);
+      border: 0;
+      border-radius: 12px;
+      background: var(--fundo);
       cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="logoescola.png" alt="Logo da Escola" class="logo" />
-    <h2>Ferramentas Internas</h2>
-    
-    <input type="text" id="search" placeholder="Buscar ferramenta..." onkeyup="filterButtons()"/>
-
-    <div class="grid" id="buttonGrid">
-      <a href="https://saladofuturoprofessor.educacao.sp.gov.br/" class="btn" target="_blank">Sala do Futuro PROFESSOR</a>
-      <a href="https://cmsp.ip.tv/" class="btn" target="_blank">CMSP - Tarefas e Avaliações</a>
-      <a href="https://professorgaldino.github.io/villani/ocorrencias.html" class="btn" target="_blank">Ocorrências</a>
-      <a href="https://professorgaldino.github.io/acervo/" class="btn" target="_blank">Acervo Biblioteca</a>
-      <a href="https://script.google.com/macros/s/AKfycbwGQzZQVyc2vVdQyXifgjsrk4lxUKUvTo_2F4TZhNrixUDgyz3znYAsvJxOc2IBSc9Gcw/exec" class="btn" target="_blank">Chamada 2026</a>
-      <a href="https://professorgaldino.github.io/villani/consultaocorrencias.html" class="btn" target="_blank">Histórico de Ocorrências</a>
-      <a href=" https://professorgaldino.github.io/villani/consulta.html" class="btn" target="_blank">Consultar alunos</a>
-      <a href="https://professorgaldino.github.io/villani/boletim.html" class="btn" target="_blank">Boletins 2026</a>
-      <button class="btn" onclick="openModal()">Planilha Notas Bimestrais</button>
-      <a href="https://professorgaldino.github.io/contatos/" class="btn" target="_blank">Contatos 2025</a>
-      <a href="https://professorgaldino.github.io/tutor/" class="btn btn-top" target="_blank">Retornar ao Site</a>
-
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-      <h3>Planilha Notas Bimestrais</h3>
-      <div class="modal-buttons">
-        <a href="https://screenrec.com/share/drHfui2sI3" target="_blank">📺 Assistir Tutorial</a>
-        <a href="Modelo%20Notas%20Bimestrais.xlsx" download>⬇️ Baixar Planilha</a>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    function filterButtons() {
-      const input = document.getElementById("search").value.toLowerCase();
-      const buttons = document.querySelectorAll("#buttonGrid .btn, #buttonGrid button");
-
-      buttons.forEach(btn => {
-        const text = btn.textContent.toLowerCase();
-        btn.style.display = text.includes(input) ? "block" : "none";
-      });
+      font-size: 1.35rem;
     }
 
-    function openModal() {
-      document.getElementById("modal").style.display = "flex";
+    .modal-actions {
+      display: grid;
+      gap: 11px;
     }
 
-    function closeModal() {
-      document.getElementById("modal").style.display = "none";
+    .modal-button {
+      min-height: 52px;
+      padding: 0 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--branco);
+      border-radius: 14px;
+      background: var(--azul);
+      font-weight: 700;
+      transition: 0.2s ease;
     }
 
-    // Fecha o modal se clicar fora do conteúdo
-    window.onclick = function(event) {
-      const modal = document.getElementById("modal");
-      if (event.target === modal) {
-        modal.style.display = "none";
+    .modal-button:hover {
+      background: var(--azul-claro);
+      transform: translateY(-2px);
+    }
+
+    .modal-button.secondary {
+      color: var(--azul-marinho);
+      background: var(--dourado-claro);
+    }
+
+    /* Rodapé */
+
+    footer {
+      padding: 27px 20px;
+      color: rgba(255, 255, 255, 0.7);
+      background: var(--azul-marinho);
+      text-align: center;
+      font-size: 0.78rem;
+    }
+
+    /* Responsividade */
+
+    @media (max-width: 850px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
-    };
-  </script>
-</body>
-</html>
+    }
 
+    @media (max-width: 620px) {
+      .topbar-inner {
+        justify-content: center;
+        text-align: center;
+      }
 
+      .topbar-inner > :first-child {
+        display: none;
+      }
 
+      .header-inner {
+        min-height: 86px;
+      }
 
+      .brand-logo {
+        width: 62px;
+        height: 62px;
+      }
 
+      .brand-text strong {
+        font-size: 1rem;
+      }
 
+      .brand-text small {
+        display: none;
+      }
 
+      .back-link {
+        width: 45px;
+        padding: 0;
+        justify-content: center;
+      }
 
+      .back-link span {
+        display: none;
+      }
+
+      .hero-inner
