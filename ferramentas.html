@@ -594,4 +594,412 @@
         display: none;
       }
 
-      .hero-inner
+      .hero-inner {
+        padding: 52px 0 66px;
+      }
+
+      .hero p {
+        font-size: 0.94rem;
+      }
+
+      #search {
+        height: 56px;
+      }
+
+      main {
+        padding-top: 45px;
+      }
+
+      .section-top {
+        align-items: flex-start;
+      }
+
+      .section-top h2 {
+        font-size: 1.65rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tool-card {
+        min-height: 150px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span>Educação, conhecimento e transformação</span>
+
+      <span class="award">
+        Escola Ouro 2024 • Escola Diamante 2025
+      </span>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <a
+        class="brand"
+        href="https://professorgaldino.github.io/tutor/"
+        aria-label="Ir para o site da escola"
+      >
+        <span class="brand-logo">
+          <img
+            src="logoescola.png"
+            alt="Logo da E.E. Therezinha Villani"
+          >
+        </span>
+
+        <span class="brand-text">
+          <strong>E.E. Therezinha Villani</strong>
+          <small>Educação que transforma</small>
+        </span>
+      </a>
+
+      <a
+        class="back-link"
+        href="https://professorgaldino.github.io/tutor/"
+      >
+        <b aria-hidden="true">←</b>
+        <span>Voltar ao site</span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Acesso rápido</span>
+
+      <h1>Ferramentas Internas</h1>
+
+      <p>
+        Encontre rapidamente os sistemas e recursos usados no
+        dia a dia da escola.
+      </p>
+
+      <div class="search-wrap">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.7-3.7"></path>
+        </svg>
+
+        <input
+          id="search"
+          type="search"
+          placeholder="Buscar ferramenta..."
+          aria-label="Buscar ferramenta"
+          autocomplete="off"
+        >
+
+        <button
+          id="clearSearch"
+          type="button"
+          aria-label="Limpar busca"
+        >
+          ×
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="main-inner">
+      <div class="section-top">
+        <div>
+          <h2>Todos os recursos</h2>
+          <p>Selecione uma ferramenta para abrir.</p>
+        </div>
+
+        <span id="resultCount">10 ferramentas</span>
+      </div>
+
+      <div class="grid" id="buttonGrid">
+        <a
+          class="tool-card"
+          href="https://saladofuturoprofessor.educacao.sp.gov.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">▣</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Sala do Futuro Professor</h3>
+          <p>Acesso ao ambiente do professor.</p>
+        </a>
+
+        <a
+          class="tool-card"
+          href="https://cmsp.ip.tv/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">▶</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>CMSP</h3>
+          <p>Tarefas e avaliações.</p>
+        </a>
+
+        <a
+          class="tool-card"
+          href="https://professorgaldino.github.io/villani/ocorrencias.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">!</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Ocorrências</h3>
+          <p>Registre ocorrências escolares.</p>
+        </a>
+
+        <a
+          class="tool-card"
+          href="https://professorgaldino.github.io/acervo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">▤</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Acervo da Biblioteca</h3>
+          <p>Consulte o acervo disponível.</p>
+        </a>
+
+        <a
+          class="tool-card featured"
+          href="https://script.google.com/macros/s/AKfycbwGQzZQVyc2vVdQyXifgjsrk4lxUKUvTo_2F4TZhNrixUDgyz3znYAsvJxOc2IBSc9Gcw/exec"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">✓</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Chamada 2026</h3>
+          <p>Faça o registro de presença.</p>
+        </a>
+
+        <a
+          class="tool-card"
+          href="https://professorgaldino.github.io/villani/consultaocorrencias.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">◷</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Histórico de Ocorrências</h3>
+          <p>Consulte os registros anteriores.</p>
+        </a>
+
+        <a
+          class="tool-card"
+          href="https://professorgaldino.github.io/villani/consulta.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">♙</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Consultar Alunos</h3>
+          <p>Busca rápida de estudantes.</p>
+        </a>
+
+        <a
+          class="tool-card"
+          href="https://professorgaldino.github.io/villani/boletim.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">A+</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Boletins 2026</h3>
+          <p>Acesse notas e boletins.</p>
+        </a>
+
+        <button
+          class="tool-card"
+          type="button"
+          id="openModal"
+        >
+          <span class="tool-icon">▦</span>
+          <span class="tool-arrow">→</span>
+
+          <h3>Planilha de Notas Bimestrais</h3>
+          <p>Tutorial e arquivo para download.</p>
+        </button>
+
+        <a
+          class="tool-card"
+          href="https://professorgaldino.github.io/contatos/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="tool-icon">☎</span>
+          <span class="tool-arrow">↗</span>
+
+          <h3>Contatos 2025</h3>
+          <p>Lista de contatos da escola.</p>
+        </a>
+      </div>
+
+      <div class="empty" id="emptyState">
+        <strong>Nenhuma ferramenta encontrada.</strong>
+        <br>
+        Tente buscar usando outro termo.
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> E.E. Therezinha Villani
+    • Desenvolvido por Professor Galdino
+  </footer>
+
+  <div
+    class="modal"
+    id="modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalTitle"
+  >
+    <div class="modal-card">
+      <button
+        class="close"
+        id="closeModal"
+        type="button"
+        aria-label="Fechar"
+      >
+        ×
+      </button>
+
+      <span class="tool-icon">▦</span>
+
+      <h2 id="modalTitle">Notas Bimestrais</h2>
+
+      <p>Escolha o que deseja fazer:</p>
+
+      <div class="modal-actions">
+        <a
+          class="modal-button"
+          href="https://screenrec.com/share/drHfui2sI3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Assistir ao tutorial</span>
+          <span>▶</span>
+        </a>
+
+        <a
+          class="modal-button secondary"
+          href="Modelo%20Notas%20Bimestrais.xlsx"
+          download
+        >
+          <span>Baixar a planilha</span>
+          <span>↓</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const search = document.getElementById("search");
+    const cards = [...document.querySelectorAll(".tool-card")];
+    const count = document.getElementById("resultCount");
+    const empty = document.getElementById("emptyState");
+    const clear = document.getElementById("clearSearch");
+
+    function filterTools() {
+      const term = search.value
+        .trim()
+        .toLocaleLowerCase("pt-BR");
+
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const cardText = card.textContent
+          .toLocaleLowerCase("pt-BR");
+
+        const shouldShow = cardText.includes(term);
+
+        card.hidden = !shouldShow;
+
+        if (shouldShow) {
+          visible++;
+        }
+      });
+
+      count.textContent =
+        `${visible} ${visible === 1 ? "ferramenta" : "ferramentas"}`;
+
+      empty.style.display = visible ? "none" : "block";
+      clear.style.display = term ? "grid" : "none";
+    }
+
+    search.addEventListener("input", filterTools);
+
+    clear.addEventListener("click", () => {
+      search.value = "";
+      filterTools();
+      search.focus();
+    });
+
+    const modal = document.getElementById("modal");
+    const openButton = document.getElementById("openModal");
+    const closeButton = document.getElementById("closeModal");
+
+    function openModal() {
+      modal.classList.add("open");
+      document.body.style.overflow = "hidden";
+      closeButton.focus();
+    }
+
+    function closeModal() {
+      modal.classList.remove("open");
+      document.body.style.overflow = "";
+      openButton.focus();
+    }
+
+    openButton.addEventListener("click", openModal);
+    closeButton.addEventListener("click", closeModal);
+
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "Escape" &&
+        modal.classList.contains("open")
+      ) {
+        closeModal();
+      }
+    });
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
